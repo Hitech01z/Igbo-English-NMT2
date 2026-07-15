@@ -1,0 +1,40 @@
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Backend Python artifacts
+backend/.venv/
+backend/__pycache__/
+backend/*.log
+
+# Frontend dependencies and builds
+Translator_Frontend/node_modules/
+Translator_Frontend/dist/
+Translator_Frontend/build/
+Translator_Frontend/.vite/
+Translator_Frontend/coverage/
+Translator_Frontend/.env
+Translator_Frontend/npm-debug.log*
+Translator_Frontend/yarn-error.log*
+Translator_Frontend/pnpm-debug.log*
+
+# Generated datasets and temporary files
+synthetic_parallel_corpus/
+*.log
+*.tmp
+*.bak
+*.swp

@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+body {
+  background: #f8fafc;
+  color: #0f172a;
+  font-family: Inter, sans-serif;
+}
+
+.container-page {
+  max-width: 1280px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card {
+  background: white;
+  border-radius: 24px;
+  padding: 1.5rem;
+  box-shadow:
+    0 10px 30px rgba(0,0,0,.04);
+}
+
+.gradient-text {
+  background:
+    linear-gradient(
+      90deg,
+      #2563EB,
+      #7C3AED
+    );
+
+  -webkit-background-clip: text;
+  color: transparent;
+}
