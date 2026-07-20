@@ -1,33 +1,30 @@
-# Python bytecode and caches
+# Python
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.so
+*.egg-info/
+.venv/
+backend/.venv/
 .pytest_cache/
 .mypy_cache/
-.ruff_cache/
 
-# Virtual environments
-.venv/
-venv/
-env/
-ENV/
+# Node / frontend
+node_modules/
+Translator_Frontend/node_modules/
+dist/
+build/
 
-# VS Code
-.vscode/
+# Environment files
+.env
+.env.*
 
-# Local runtime artifacts
-*.log
-*.sqlite3
-*.db
+# OS files
+.DS_Store
+Thumbs.db
 
-# Training outputs and checkpoints
-checkpoints/
-*.pt
-*.pth
+# Models and checkpoints
 backend/checkpoints/
-
-# Dataset artifacts that are generated locally
-backend/dataset/*.csv
-backend/corpus_generator/output/
+*.pt
+*.bin
+*.safetensors

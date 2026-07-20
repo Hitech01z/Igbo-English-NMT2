@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+torch
+sentencepiece
+pandas
+numpy
+tqdm
+python-multipart
+pydantic
