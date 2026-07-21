@@ -1,4 +1,12 @@
 import { GitBranch, Mail, Globe } from "lucide-react";
+import { Link } from "react-router-dom";
+
+const navLinks = [
+  { name: "Home", path: "/" },
+  { name: "Dashboard", path: "/dashboard" },
+  { name: "Dataset", path: "/dataset" },
+  { name: "Translation", path: "/translation" },
+];
 
 export default function Footer() {
   return (
@@ -16,14 +24,14 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold">Navigation</h3>
 
-            <ul className="space-y-3 mt-4">
-              <li>Home</li>
-
-              <li>Dashboard</li>
-
-              <li>Dataset</li>
-
-              <li>Translation</li>
+            <ul className="mt-4 space-y-3">
+              {navLinks.map((link) => (
+                <li key={link.name}>
+                  <Link to={link.path} className="transition hover:text-blue-300">
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -31,20 +39,20 @@ export default function Footer() {
             <h3 className="font-semibold">Contact</h3>
 
             <div className="space-y-4 mt-4">
-              <div className="flex gap-3">
+              <a href="mailto:info@example.com" className="flex gap-3 transition hover:text-blue-300">
                 <Mail />
                 info@example.com
-              </div>
+              </a>
 
-              <div className="flex gap-3">
+              <a href="https://github.com/Hitech01z/Igbo-English-NMT2" target="_blank" rel="noreferrer" className="flex gap-3 transition hover:text-blue-300">
                 <GitBranch />
                 GitHub
-              </div>
+              </a>
 
-              <div className="flex gap-3">
+              <a href="https://github.com/Hitech01z/Igbo-English-NMT2" target="_blank" rel="noreferrer" className="flex gap-3 transition hover:text-blue-300">
                 <Globe />
                 Project Website
-              </div>
+              </a>
             </div>
           </div>
         </div>

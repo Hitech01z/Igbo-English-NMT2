@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -26,14 +27,20 @@ export default function Home() {
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:gap-5 lg:justify-start">
-                <button className="w-full rounded-xl bg-white px-6 py-3 font-semibold text-blue-700 shadow-lg transition hover:scale-[1.01] sm:w-auto sm:px-8 sm:py-4">
+                <Link
+                  to="/translation"
+                  className="w-full rounded-xl bg-white px-6 py-3 text-center font-semibold text-blue-700 shadow-lg transition hover:scale-[1.01] sm:w-auto sm:px-8 sm:py-4"
+                >
                   Start Translating
-                </button>
+                </Link>
 
-                <button className="flex w-full items-center justify-center gap-2 rounded-xl border border-white/80 px-6 py-3 transition hover:bg-white/10 sm:w-auto sm:px-8 sm:py-4">
+                <Link
+                  to="/dataset"
+                  className="flex w-full items-center justify-center gap-2 rounded-xl border border-white/80 px-6 py-3 transition hover:bg-white/10 sm:w-auto sm:px-8 sm:py-4"
+                >
                   Explore Dataset
                   <ArrowRight size={18} />
-                </button>
+                </Link>
               </div>
             </div>
 

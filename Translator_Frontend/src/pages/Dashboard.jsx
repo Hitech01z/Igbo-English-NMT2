@@ -13,15 +13,21 @@ export default function Dashboard() {
 
     const { stats, loading } = useDashboard();
 
-    if (loading) {
+if (loading) {
+    return (
+        <div className="flex justify-center py-20">
+            Loading Dashboard...
+        </div>
+    );
+}
 
-        return (
-            <div className="flex justify-center py-20">
-                Loading Dashboard...
-            </div>
-        );
-
-    }
+if (!stats) {
+    return (
+        <div className="flex justify-center py-20 text-red-500">
+            Failed to load dashboard.
+        </div>
+    );
+}
 
     return (
 

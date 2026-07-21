@@ -1,5 +1,9 @@
 import api from "./api";
 
 export const fetchDashboardStats = async () => {
-  return await api.get("/dashboard/");
+
+    const response = await api.get("/dashboard/");
+
+    return response.data;
+
 };
