@@ -24,7 +24,8 @@ build/
 Thumbs.db
 
 # Models and checkpoints
-backend/checkpoints/
-*.pt
 *.bin
 *.safetensors
+
+backend/checkpoints/*
+!backend/checkpoints/transformer.pt

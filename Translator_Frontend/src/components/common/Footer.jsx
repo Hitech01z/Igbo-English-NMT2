@@ -27,7 +27,10 @@ export default function Footer() {
             <ul className="mt-4 space-y-3">
               {navLinks.map((link) => (
                 <li key={link.name}>
-                  <Link to={link.path} className="transition hover:text-blue-300">
+                  <Link
+                    to={link.path}
+                    className="transition hover:text-blue-300"
+                  >
                     {link.name}
                   </Link>
                 </li>
@@ -39,17 +42,30 @@ export default function Footer() {
             <h3 className="font-semibold">Contact</h3>
 
             <div className="space-y-4 mt-4">
-              <a href="mailto:info@example.com" className="flex gap-3 transition hover:text-blue-300">
+              <a
+                href="mailto:info@example.com"
+                className="flex gap-3 transition hover:text-blue-300"
+              >
                 <Mail />
                 info@example.com
               </a>
 
-              <a href="https://github.com/Hitech01z/Igbo-English-NMT2" target="_blank" rel="noreferrer" className="flex gap-3 transition hover:text-blue-300">
+              <a
+                href="https://github.com/Hitech01z/Igbo-English-NMT2"
+                target="_blank"
+                rel="noreferrer"
+                className="flex gap-3 transition hover:text-blue-300"
+              >
                 <GitBranch />
                 GitHub
               </a>
 
-              <a href="https://github.com/Hitech01z/Igbo-English-NMT2" target="_blank" rel="noreferrer" className="flex gap-3 transition hover:text-blue-300">
+              <a
+                href="https://github.com/Hitech01z/Igbo-English-NMT2"
+                target="_blank"
+                rel="noreferrer"
+                className="flex gap-3 transition hover:text-blue-300"
+              >
                 <Globe />
                 Project Website
               </a>
