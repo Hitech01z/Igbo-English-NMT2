@@ -19,6 +19,20 @@ def root():
     }
 
 
+# -------------------------
+# Dashboard Endpoint
+# -------------------------
+@router.get("/dashboard/")
+def dashboard():
+
+    return {
+        "dataset_size": 11039,
+        "vocabulary_size": 1000,
+        "domains": 10,
+        "total_translations": 0,
+    }
+
+
 @router.post("/translate")
 def translate(request: TranslationRequest):
 
