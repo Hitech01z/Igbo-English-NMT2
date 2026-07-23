@@ -1,6 +1,7 @@
 import useDashboard from "../hooks/useDashboard";
 
 import StatCard from "../components/dashboard/StatCard";
+import DatasetChart from "../components/dashboard/DatasetChart";
 
 import {
     Database,
@@ -66,6 +67,8 @@ if (!stats) {
                     color="bg-orange-500 text-white"
                     icon={<FileText />}
                 />
+
+                <DatasetChart data={stats.chart} />
      
 
             </div>

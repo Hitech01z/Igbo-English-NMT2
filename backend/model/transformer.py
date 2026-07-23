@@ -1,107 +1,317 @@
 import torch
 import torch.nn as nn
 
-from model.embeddings import TransformerEmbedding
-from model.encoder import Encoder
-from model.decoder import Decoder
 
 from model.config import (
+
     VOCAB_SIZE,
-    EMBED_SIZE,
-    MAX_LENGTH,
+    EMBED_DIM,
     NUM_HEADS,
-    NUM_ENCODER_LAYERS,
-    NUM_DECODER_LAYERS,
+    NUM_LAYERS,
     FF_DIM,
     DROPOUT,
+    MAX_LENGTH,
+
+)
+
+
+from model.encoder import Encoder
+
+from model.decoder import Decoder
+
+from model.masks import (
+
+    create_src_padding_mask,
+    create_tgt_padding_mask,
+    create_causal_mask,
+
 )
 
 
 class Transformer(nn.Module):
 
     def __init__(self):
+
         super().__init__()
 
-        self.embedding = TransformerEmbedding(
-            vocab_size=VOCAB_SIZE,
-            embed_dim=EMBED_SIZE,
-            max_length=MAX_LENGTH,
-            dropout=DROPOUT,
+
+        # ====================================================
+        # TOKEN EMBEDDING
+        # ====================================================
+
+        self.src_embedding = nn.Embedding(
+
+            VOCAB_SIZE,
+
+            EMBED_DIM,
+
+            padding_idx=0,
+
         )
+
+
+        self.tgt_embedding = nn.Embedding(
+
+            VOCAB_SIZE,
+
+            EMBED_DIM,
+
+            padding_idx=0,
+
+        )
+
+
+        # ====================================================
+        # POSITIONAL EMBEDDING
+        # ====================================================
+
+        self.src_position_embedding = nn.Embedding(
+
+            64,
+
+            EMBED_DIM,
+
+        )
+
+
+        self.tgt_position_embedding = nn.Embedding(
+
+            64,
+
+            EMBED_DIM,
+
+        )
+
+
+        # ====================================================
+        # ENCODER
+        # ====================================================
 
         self.encoder = Encoder(
-            embed_dim=EMBED_SIZE,
-            num_layers=NUM_ENCODER_LAYERS,
+
+            embed_dim=EMBED_DIM,
+
+            num_layers=NUM_LAYERS,
+
             num_heads=NUM_HEADS,
+
             ff_dim=FF_DIM,
+
             dropout=DROPOUT,
+
         )
+
+
+        # ====================================================
+        # DECODER
+        # ====================================================
 
         self.decoder = Decoder(
-            embed_dim=EMBED_SIZE,
-            num_layers=NUM_DECODER_LAYERS,
+
+            embed_dim=EMBED_DIM,
+
+            num_layers=NUM_LAYERS,
+
             num_heads=NUM_HEADS,
+
             ff_dim=FF_DIM,
+
             dropout=DROPOUT,
+
         )
+
+
+        # ====================================================
+        # OUTPUT PROJECTION
+        # ====================================================
 
         self.output_layer = nn.Linear(
-            EMBED_SIZE,
+
+            EMBED_DIM,
+
             VOCAB_SIZE,
+
         )
 
-    def make_src_mask(self, src):
 
-        return (src != 0).unsqueeze(1).unsqueeze(2)
+        self.dropout = nn.Dropout(
 
-    def make_tgt_mask(self, tgt):
+            DROPOUT
 
-        batch_size, tgt_len = tgt.shape
+        )
 
-        padding_mask = (
-            tgt != 0
-        ).unsqueeze(1).unsqueeze(2)
-
-        causal_mask = torch.tril(
-            torch.ones(
-                tgt_len,
-                tgt_len,
-                device=tgt.device,
-            )
-        ).bool()
-
-        causal_mask = causal_mask.unsqueeze(0).unsqueeze(1)
-
-        return padding_mask & causal_mask
 
     def forward(
+
         self,
+
         src,
+
         tgt,
+
     ):
 
-        src_mask = self.make_src_mask(src)
+        batch_size = src.size(0)
 
-        tgt_mask = self.make_tgt_mask(tgt)
+        src_length = src.size(1)
 
-        src = self.embedding(src)
+        tgt_length = tgt.size(1)
 
-        tgt = self.embedding(tgt)
+
+        # ====================================================
+        # POSITION INDICES
+        # ====================================================
+
+        src_positions = torch.arange(
+
+            src_length,
+
+            device=src.device,
+
+        ).unsqueeze(0).expand(
+
+            batch_size,
+
+            src_length,
+
+        )
+
+
+        tgt_positions = torch.arange(
+
+            tgt_length,
+
+            device=tgt.device,
+
+        ).unsqueeze(0).expand(
+
+            batch_size,
+
+            tgt_length,
+
+        )
+
+
+        # ====================================================
+        # EMBEDDINGS
+        # ====================================================
+
+        src_embedded = (
+
+            self.src_embedding(src)
+
+            +
+
+            self.src_position_embedding(
+
+                src_positions
+
+            )
+
+        )
+
+
+        tgt_embedded = (
+
+            self.tgt_embedding(tgt)
+
+            +
+
+            self.tgt_position_embedding(
+
+                tgt_positions
+
+            )
+
+        )
+
+
+        src_embedded = self.dropout(
+
+            src_embedded
+
+        )
+
+
+        tgt_embedded = self.dropout(
+
+            tgt_embedded
+
+        )
+
+
+        # ====================================================
+        # MASKS
+        # ====================================================
+
+        src_padding_mask = (
+
+            create_src_padding_mask(src)
+
+        )
+
+
+        tgt_padding_mask = (
+
+            create_tgt_padding_mask(tgt)
+
+        )
+
+
+        tgt_causal_mask = (
+
+            create_causal_mask(
+
+                tgt_length,
+
+                tgt.device,
+
+            )
+
+        )
+
+
+        # ====================================================
+        # ENCODER
+        # ====================================================
 
         encoder_output = self.encoder(
-            src,
-            src_mask,
+
+            src_embedded,
+
+            padding_mask=src_padding_mask,
+
         )
+
+
+        # ====================================================
+        # DECODER
+        # ====================================================
 
         decoder_output = self.decoder(
-            tgt,
+
+            tgt_embedded,
+
             encoder_output,
-            src_mask,
-            tgt_mask,
+
+            src_padding_mask=src_padding_mask,
+
+            tgt_padding_mask=tgt_padding_mask,
+
+            tgt_causal_mask=tgt_causal_mask,
+
         )
 
+
+        # ====================================================
+        # VOCABULARY PREDICTION
+        # ====================================================
+
         output = self.output_layer(
+
             decoder_output
+
         )
+
 
         return output

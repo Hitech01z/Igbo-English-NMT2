@@ -23,7 +23,10 @@ loader = DataLoader(
 
 model = Transformer().to(DEVICE)
 
-criterion = nn.CrossEntropyLoss(ignore_index=0)
+criterion = nn.CrossEntropyLoss(
+    ignore_index=0,
+    label_smoothing=0.1,
+)
 
 optimizer = torch.optim.Adam(
     model.parameters(),

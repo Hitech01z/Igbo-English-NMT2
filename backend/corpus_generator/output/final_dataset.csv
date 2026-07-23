@@ -1,0 +1,118 @@
+domain,english,igbo
+general,Good morning.,Ụtụtụ ọma.
+general,Good afternoon.,Ehihie ọma.
+general,Good evening.,Mgbede ọma.
+general,How are you?,Kedu ka ị mere?
+general,I am fine.,Adị m mma.
+general,Thank you.,Daalụ.
+general,You are welcome.,Nnọọ.
+general,What is your name?,Gịnị bụ aha gị?
+general,My name is David.,Aha m bụ David.
+general,I am a student.,Abụ m nwa akwụkwọ.
+general,She is a teacher.,Ọ bụ onye nkuzi.
+general,He is my friend.,Ọ bụ enyi m.
+general,This is my house.,Nke a bụ ụlọ m.
+general,I am going home.,Ana m ala.
+general,Where are you going?,Ebee ka ị na-aga?
+general,I do not understand.,Aghọtaghị m.
+general,Please speak slowly.,Biko kwuo nwayọ.
+general,What are you doing?,Gịnị ka ị na-eme?
+general,I am learning English.,Ana m amụ Bekee.
+general,I speak Igbo.,Ana m asụ Igbo.
+general,See you tomorrow.,Ka anyị hụ echi.
+education,I am going to school.,Ana m aga ụlọ akwụkwọ.
+education,The student is reading a book.,Nwa akwụkwọ ahụ na-agụ akwụkwọ.
+education,The teacher is teaching the students.,Onye nkuzi na-akụziri ụmụ akwụkwọ.
+education,The library is open.,Ọba akwụkwọ meghere.
+education,The examination starts today.,Ule ahụ na-amalite taa.
+education,The student passed the examination.,Nwa akwụkwọ ahụ gafere ule ahụ.
+education,She is studying mathematics.,Ọ na-amụ mgbakọ na mwepụ.
+education,He wrote an important note.,O dere ihe dị mkpa.
+agriculture,The farmer planted maize.,Onye ọrụ ugbo kụrụ ọka.
+agriculture,The farmer harvested maize.,Onye ọrụ ugbo wetara ọka.
+agriculture,The farmer planted yam.,Onye ọrụ ugbo kụrụ ji.
+agriculture,The farmer went to the farm.,Onye ọrụ ugbo gara n'ubi.
+agriculture,The crops are growing well.,Ihe ọkụkụ na-eto nke ọma.
+agriculture,The farmer bought seeds.,Onye ọrụ ugbo zụtara mkpụrụ.
+food,I ate rice.,Riri m osikapa.
+food,She cooked beans.,Ọ siri agwa.
+food,He bought yam.,Ọ zụtara ji.
+food,The food tastes good.,Nri ahụ na-atọ ụtọ.
+food,I am hungry.,Agụụ na-agụ m.
+food,I am thirsty.,Akpịrị na-akpọ m nkụ.
+food,The woman cooked soup.,Nwanyị ahụ siri ofe.
+health,The doctor treated the patient.,Dọkịta gwọrọ onye ọrịa.
+health,I am feeling sick.,Ahụ adịghị m mma.
+health,The child has a fever.,Nwatakịrị ahụ nwere ahụ ọkụ.
+health,Take this medicine.,Were ọgwụ a.
+health,The hospital is nearby.,Ụlọ ọgwụ dị nso.
+transportation,The car arrived early.,Ụgbọala ahụ rutere n'oge.
+transportation,The bus is going to the city.,Ụgbọ ala na-aga obodo.
+transportation,The driver stopped the car.,Onye ọkwọ ụgbọala ahụ kwụsịrị ụgbọala.
+transportation,Where is the airport?,Ebee ka ọdụ ụgbọ elu dị?
+technology,The internet is working.,Ịntanet na-arụ ọrụ.
+technology,The computer is new.,Kọmputa ahụ bụ nke ọhụrụ.
+technology,David repaired the computer.,David rụziri kọmputa ahụ.
+technology,I use a mobile phone.,Ana m eji ekwentị mkpanaaka.
+business,The trader went to the market.,Onye ahịa gara ahịa.
+business,She bought a phone.,Ọ zụtara ekwentị.
+business,He sold the goods.,Ọ rere ngwongwo ahụ.
+business,The shop is open.,Ụlọ ahịa meghere.
+weather,The weather is hot today.,Ihu igwe na-ekpo ọkụ taa.
+weather,It is raining.,Mmiri na-ezo.
+weather,The wind is blowing.,Ifufe na-efe.
+weather,The sky is cloudy.,Igwe juru n'igwe ojii.
+daily_life,I woke up early.,Ebiliri m n'isi ụtụtụ.
+daily_life,I am going to work.,Ana m aga ọrụ.
+daily_life,She washed her clothes.,Ọ sachara uwe ya.
+daily_life,He opened the door.,Ọ meghere ụzọ.
+daily_life,The child is sleeping.,Nwatakịrị ahụ na-ehi ụra.
+family,This is my mother.,Nke a bụ nne m.
+family,This is my father.,Nke a bụ nna m.
+family,My brother is at home.,Nwanne m nwoke nọ n'ụlọ.
+family,My sister is reading.,Nwanne m nwanyị na-agụ akwụkwọ.
+family,The family is eating together.,Ezinụlọ ahụ na-eri nri ọnụ.
+agriculture,The farmer planted maize yesterday.,Onye ọrụ ugbo kụrụ ọka ụnyaahụ.
+agriculture,The farmer planted maize today.,Onye ọrụ ugbo kụrụ ọka taa.
+agriculture,The farmer will plant maize tomorrow.,Onye ọrụ ugbo ga-akụ ọka echi.
+agriculture,The farmer harvested maize yesterday.,Onye ọrụ ugbo wetara ọka ụnyaahụ.
+agriculture,The farmer harvested maize today.,Onye ọrụ ugbo wetara ọka taa.
+agriculture,The farmer planted yam yesterday.,Onye ọrụ ugbo kụrụ ji ụnyaahụ.
+agriculture,The farmer planted yam today.,Onye ọrụ ugbo kụrụ ji taa.
+agriculture,The farmer will plant yam tomorrow.,Onye ọrụ ugbo ga-akụ ji echi.
+agriculture,The farmer went to the farm yesterday.,Onye ọrụ ugbo gara n'ubi ụnyaahụ.
+agriculture,The farmer went to the farm today.,Onye ọrụ ugbo gara n'ubi taa.
+agriculture,The farmer will go to the farm tomorrow.,Onye ọrụ ugbo ga-aga n'ubi echi.
+agriculture,The crops are growing well today.,Ihe ọkụkụ na-eto nke ọma taa.
+agriculture,The crops grew well yesterday.,Ihe ọkụkụ toro nke ọma ụnyaahụ.
+food,Mary ate beans.,Mary riri agwa.
+food,Mary ate beans yesterday.,Mary riri agwa ụnyaahụ.
+food,Mary ate beans today.,Mary riri agwa taa.
+food,Peter ate rice.,Peter riri osikapa.
+food,Peter ate rice yesterday.,Peter riri osikapa ụnyaahụ.
+food,Peter ate rice today.,Peter riri osikapa taa.
+food,Grace cooked garri.,Grace siri garri.
+food,Grace cooked garri yesterday.,Grace siri garri ụnyaahụ.
+food,Grace cooked garri today.,Grace siri garri taa.
+food,Garri tastes good.,Garri na-atọ ụtọ.
+food,Garri tastes good today.,Garri na-atọ ụtọ taa.
+business,Grace bought yam.,Grace zụtara ji.
+business,Grace bought yam yesterday.,Grace zụtara ji ụnyaahụ.
+business,Grace bought yam today.,Grace zụtara ji taa.
+business,Chioma sold the phone.,Chioma rere ekwentị.
+business,Chioma sold the phone yesterday.,Chioma rere ekwentị ụnyaahụ.
+business,Chioma sold the phone today.,Chioma rere ekwentị taa.
+business,The trader visited Kano.,Onye ahịa gara Kano.
+business,The trader visited Kano yesterday.,Onye ahịa gara Kano ụnyaahụ.
+business,The trader visited Kano today.,Onye ahịa gara Kano taa.
+transportation,The car arrived early yesterday.,Ụgbọala rutere n'oge ụnyaahụ.
+transportation,The car arrived early today.,Ụgbọala rutere n'oge taa.
+transportation,The airport arrived early yesterday.,Ọdụ ụgbọ elu rutere n'oge ụnyaahụ.
+weather,Mary likes the storm.,Mary hụrụ oke ifufe n'anya.
+weather,Mary likes the storm today.,Mary hụrụ oke ifufe n'anya taa.
+weather,The wind is changing.,Ifufe na-agbanwe.
+weather,The wind is changing today.,Ifufe na-agbanwe taa.
+health,The doctor treated diabetes.,Dọkịta gwọrọ shuga.
+health,The doctor treated diabetes yesterday.,Dọkịta gwọrọ shuga ụnyaahụ.
+health,The doctor treated typhoid.,Dọkịta gwọrọ taịfọd.
+health,The doctor treated typhoid yesterday.,Dọkịta gwọrọ taịfọd ụnyaahụ.

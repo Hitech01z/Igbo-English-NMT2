@@ -1,35 +1,118 @@
 from pathlib import Path
 import torch
 
-BASE_DIR = Path(__file__).parent.parent
 
-DATASET = BASE_DIR / "corpus_generator" / "output" / "final_dataset_clean.csv"
+# ============================================================
+# PROJECT ROOT
+# ============================================================
 
-TOKENIZER = BASE_DIR / "tokenizer" / "spm.model"
+BASE_DIR = Path(__file__).resolve().parent.parent
 
-CHECKPOINT_DIR = BASE_DIR / "checkpoints"
-CHECKPOINT_DIR.mkdir(exist_ok=True)
 
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+# ============================================================
+# DATASET
+# ============================================================
 
-VOCAB_SIZE = 1000
+DATASET = (
+    BASE_DIR
+    / "corpus_generator"
+    / "output"
+    / "final_dataset.csv"
+)
 
-MAX_LENGTH = 64
 
-BATCH_SIZE = 8
+# ============================================================
+# TOKENIZER
+# ============================================================
 
-EMBED_SIZE = 256
+TOKENIZER = (
+    BASE_DIR
+    / "tokenizer"
+    / "spm.model"
+)
+
+
+# ============================================================
+# CHECKPOINTS
+# ============================================================
+
+CHECKPOINT_DIR = (
+    BASE_DIR
+    / "checkpoints"
+)
+
+
+# ============================================================
+# DEVICE
+# ============================================================
+
+DEVICE = torch.device(
+
+    "cuda"
+    if torch.cuda.is_available()
+    else "cpu"
+
+)
+
+
+# ============================================================
+# TOKEN IDs
+# ============================================================
+
+PAD_IDX = 0
+UNK_IDX = 1
+BOS_IDX = 2
+EOS_IDX = 3
+
+
+# ============================================================
+# MODEL CONFIGURATION
+# ============================================================
+
+VOCAB_SIZE = 500
+
+EMBED_DIM = 256
+
+# Compatibility alias
+EMBED_SIZE = EMBED_DIM
 
 NUM_HEADS = 8
 
-NUM_ENCODER_LAYERS = 4
+NUM_LAYERS = 3
 
-NUM_DECODER_LAYERS = 4
-
-FF_DIM = 1024
+FF_DIM = 512
 
 DROPOUT = 0.1
 
-EPOCHS = 10
 
-LEARNING_RATE = 1e-4
+# ============================================================
+# SEQUENCE LENGTH
+# ============================================================
+
+MAX_LENGTH = 64
+
+
+# ============================================================
+# TRAINING SETTINGS
+# ============================================================
+
+BATCH_SIZE = 8
+
+EPOCHS = 20
+
+LEARNING_RATE = 0.0003
+
+
+# ============================================================
+# DEVICE
+# ============================================================
+
+DEVICE = torch.device(
+
+    "cuda"
+
+    if torch.cuda.is_available()
+
+    else "cpu"
+
+)

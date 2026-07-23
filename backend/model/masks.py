@@ -1,31 +1,38 @@
 import torch
 
 
-def create_src_mask(src):
+def create_src_padding_mask(src):
 
-    return (
-        src != 0
-    ).unsqueeze(1).unsqueeze(2)
+    return src == 0
 
 
-def create_tgt_mask(tgt):
+def create_tgt_padding_mask(tgt):
 
-    batch_size, length = tgt.shape
+    return tgt == 0
 
-    padding = (
-        tgt != 0
-    ).unsqueeze(1).unsqueeze(2)
 
-    causal = torch.tril(
+def create_causal_mask(
+
+    length,
+
+    device,
+
+):
+
+    return torch.triu(
 
         torch.ones(
+
             length,
+
             length,
-            device=tgt.device,
-        )
 
-    ).bool()
+            device=device,
 
-    causal = causal.unsqueeze(0).unsqueeze(1)
+            dtype=torch.bool,
 
-    return padding & causal
+        ),
+
+        diagonal=1,
+
+    )
