@@ -17,7 +17,7 @@ DATASET = (
     BASE_DIR
     / "corpus_generator"
     / "output"
-    / "final_dataset.csv"
+    / "raw_dataset.csv"
 )
 
 
