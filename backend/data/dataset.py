@@ -6,79 +6,158 @@ from torch.utils.data import Dataset
 
 import sentencepiece as spm
 
+
 from model.config import (
+
     DATASET,
+
     TOKENIZER,
+
     MAX_LENGTH,
+
     BOS_IDX,
+
     EOS_IDX,
+
+    PAD_IDX,
+
 )
 
+
+# ============================================================
+# TOKENIZER
+# ============================================================
 
 sp = spm.SentencePieceProcessor(
+
     model_file=str(TOKENIZER)
+
 )
 
+
+# ============================================================
+# TRANSLATION DATASET
+# ============================================================
 
 class TranslationDataset(Dataset):
 
+
     def __init__(self):
+
 
         self.rows = []
 
+
+        # ----------------------------------------------------
+        # LOAD DATASET
+        # ----------------------------------------------------
+
         with open(
+
             DATASET,
+
             encoding="utf-8",
+
             newline="",
+
         ) as file:
 
-            reader = csv.DictReader(file)
+
+            reader = csv.DictReader(
+
+                file
+
+            )
+
 
             for row in reader:
 
-                english = row["english"].strip()
 
-                igbo = row["igbo"].strip()
+                english = row[
+
+                    "english"
+
+                ].strip()
 
 
-                # English → Igbo
+                igbo = row[
+
+                    "igbo"
+
+                ].strip()
+
+
+                # ====================================================
+                # ENGLISH → IGBO
+                # ====================================================
 
                 self.rows.append({
 
-                    "source":
-                    f"<en2ig> {english}",
+                    "direction": "<en2ig>",
 
-                    "target":
-                    igbo,
+                    "source": english,
+
+                    "target": igbo,
 
                 })
 
 
-                # Igbo → English
+                # ====================================================
+                # IGBO → ENGLISH
+                # ====================================================
 
                 self.rows.append({
 
-                    "source":
-                    f"<ig2en> {igbo}",
+                    "direction": "<ig2en>",
 
-                    "target":
-                    english,
+                    "source": igbo,
+
+                    "target": english,
 
                 })
 
 
-    def __len__(self):
+    # ============================================================
+    # DATASET LENGTH
+    # ============================================================
 
-        return len(self.rows)
+    def __len__(
+
+        self
+
+    ):
 
 
-    def pad(self, ids):
+        return len(
 
-        ids = ids[:MAX_LENGTH]
+            self.rows
+
+        )
+
+
+    # ============================================================
+    # PADDING
+    # ============================================================
+
+    def pad(
+
+        self,
+
+        ids,
+
+    ):
+
+
+        ids = ids[
+
+            :MAX_LENGTH
+
+        ]
+
 
         ids += [
 
-            0
+            PAD_IDX
 
         ] * (
 
@@ -86,19 +165,55 @@ class TranslationDataset(Dataset):
 
         )
 
+
         return ids
 
 
-    def __getitem__(self, index):
+    # ============================================================
+    # GET ITEM
+    # ============================================================
 
-        row = self.rows[index]
+    def __getitem__(
 
+        self,
+
+        index,
+
+    ):
+
+
+        row = self.rows[
+
+            index
+
+        ]
+
+
+        # --------------------------------------------------------
+        # DIRECTION TOKEN
+        # --------------------------------------------------------
+
+        direction_id = sp.piece_to_id(
+
+            row["direction"]
+
+        )
+
+
+        # ========================================================
+        # SOURCE
+        #
+        # [BOS] [DIRECTION] SENTENCE [EOS]
+        # ========================================================
 
         source_ids = [
 
-            BOS_IDX
+            BOS_IDX,
+
+            direction_id,
 
         ]
+
 
         source_ids.extend(
 
@@ -112,6 +227,7 @@ class TranslationDataset(Dataset):
 
         )
 
+
         source_ids.append(
 
             EOS_IDX
@@ -119,11 +235,18 @@ class TranslationDataset(Dataset):
         )
 
 
+        # ========================================================
+        # TARGET
+        #
+        # [BOS] SENTENCE [EOS]
+        # ========================================================
+
         target_ids = [
 
             BOS_IDX
 
         ]
+
 
         target_ids.extend(
 
@@ -137,6 +260,7 @@ class TranslationDataset(Dataset):
 
         )
 
+
         target_ids.append(
 
             EOS_IDX
@@ -144,11 +268,19 @@ class TranslationDataset(Dataset):
         )
 
 
+        # ========================================================
+        # RETURN TENSORS
+        # ========================================================
+
         return (
 
             torch.tensor(
 
-                self.pad(source_ids),
+                self.pad(
+
+                    source_ids
+
+                ),
 
                 dtype=torch.long,
 
@@ -156,7 +288,11 @@ class TranslationDataset(Dataset):
 
             torch.tensor(
 
-                self.pad(target_ids),
+                self.pad(
+
+                    target_ids
+
+                ),
 
                 dtype=torch.long,
 

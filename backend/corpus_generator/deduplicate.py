@@ -1,62 +1,211 @@
 import csv
 from pathlib import Path
 
-INPUT = (
-    Path(__file__).parent /
-    "output" /
-    "augmented_dataset.csv"
+
+# ============================================================
+# PATHS
+# ============================================================
+
+BASE_DIR = Path(__file__).resolve().parent
+
+INPUT_FILE = (
+    BASE_DIR
+    / "output"
+    / "raw_dataset.csv"
 )
 
-OUTPUT = (
-    Path(__file__).parent /
-    "output" /
-    "final_dataset_clean.csv"
+OUTPUT_FILE = (
+    BASE_DIR
+    / "output"
+    / "final_dataset.csv"
 )
 
-seen = set()
 
-rows = []
+# ============================================================
+# LOAD DATASET
+# ============================================================
 
-with open(
-    INPUT,
-    encoding="utf-8",
-) as f:
+def load_dataset():
 
-    reader = csv.DictReader(f)
+    rows = []
 
-    for row in reader:
+    with open(
+
+        INPUT_FILE,
+
+        encoding="utf-8",
+
+        newline="",
+
+    ) as file:
+
+        reader = csv.DictReader(file)
+
+        for row in reader:
+
+            domain = row["domain"].strip()
+
+            english = row["english"].strip()
+
+            igbo = row["igbo"].strip()
+
+
+            if not english or not igbo:
+
+                continue
+
+
+            rows.append({
+
+                "domain": domain,
+
+                "english": english,
+
+                "igbo": igbo,
+
+            })
+
+
+    return rows
+
+
+# ============================================================
+# REMOVE EXACT DUPLICATE PAIRS
+# ============================================================
+
+def remove_duplicates(rows):
+
+    seen = set()
+
+    clean_rows = []
+
+
+    for row in rows:
 
         key = (
+
             row["english"].strip().lower(),
+
             row["igbo"].strip().lower(),
+
         )
 
-        if key not in seen:
 
-            seen.add(key)
+        if key in seen:
 
-            rows.append(row)
+            continue
 
-with open(
-    OUTPUT,
-    "w",
-    newline="",
-    encoding="utf-8",
-) as f:
 
-    writer = csv.DictWriter(
-        f,
-        fieldnames=[
-            "domain",
-            "english",
-            "igbo",
-        ],
+        seen.add(key)
+
+        clean_rows.append(row)
+
+
+    return clean_rows
+
+
+# ============================================================
+# SAVE FINAL DATASET
+# ============================================================
+
+def save_dataset(rows):
+
+    OUTPUT_FILE.parent.mkdir(
+
+        parents=True,
+
+        exist_ok=True,
+
     )
 
-    writer.writeheader()
 
-    writer.writerows(rows)
+    with open(
 
-print(
-    f"Final rows : {len(rows):,}"
-)
+        OUTPUT_FILE,
+
+        "w",
+
+        encoding="utf-8",
+
+        newline="",
+
+    ) as file:
+
+        writer = csv.DictWriter(
+
+            file,
+
+            fieldnames=[
+
+                "domain",
+
+                "english",
+
+                "igbo",
+
+            ],
+
+        )
+
+
+        writer.writeheader()
+
+
+        writer.writerows(rows)
+
+
+# ============================================================
+# MAIN
+# ============================================================
+
+def main():
+
+    print(
+
+        "Loading raw dataset..."
+
+    )
+
+
+    rows = load_dataset()
+
+
+    print(
+
+        f"Loaded rows: {len(rows)}"
+
+    )
+
+
+    rows = remove_duplicates(rows)
+
+
+    print(
+
+        f"Final clean rows: {len(rows)}"
+
+    )
+
+
+    save_dataset(rows)
+
+
+    print()
+
+    print(
+
+        "Final dataset created successfully."
+
+    )
+
+
+    print(
+
+        f"Saved to: {OUTPUT_FILE}"
+
+    )
+
+
+if __name__ == "__main__":
+
+    main()

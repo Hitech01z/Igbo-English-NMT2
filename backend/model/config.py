@@ -17,7 +17,7 @@ DATASET = (
     BASE_DIR
     / "corpus_generator"
     / "output"
-    / "raw_dataset.csv"
+    / "final_dataset.csv"
 )
 
 
@@ -98,7 +98,7 @@ MAX_LENGTH = 64
 
 BATCH_SIZE = 8
 
-EPOCHS = 20
+EPOCHS = 30
 
 LEARNING_RATE = 0.0003
 

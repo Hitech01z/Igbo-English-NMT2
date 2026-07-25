@@ -12,7 +12,6 @@ general,I am a student.,Abụ m nwa akwụkwọ.
 general,She is a teacher.,Ọ bụ onye nkuzi.
 general,He is my friend.,Ọ bụ enyi m.
 general,This is my house.,Nke a bụ ụlọ m.
-general,I am going home.,Ana m ala.
 general,Where are you going?,Ebee ka ị na-aga?
 general,I do not understand.,Aghọtaghị m.
 general,Please speak slowly.,Biko kwuo nwayọ.
@@ -48,7 +47,6 @@ health,Take this medicine.,Were ọgwụ a.
 health,The hospital is nearby.,Ụlọ ọgwụ dị nso.
 transportation,The car arrived early.,Ụgbọala ahụ rutere n'oge.
 transportation,The bus is going to the city.,Ụgbọ ala na-aga obodo.
-transportation,The driver stopped the car.,Onye ọkwọ ụgbọala ahụ kwụsịrị ụgbọala.
 transportation,Where is the airport?,Ebee ka ọdụ ụgbọ elu dị?
 technology,The internet is working.,Ịntanet na-arụ ọrụ.
 technology,The computer is new.,Kọmputa ahụ bụ nke ọhụrụ.
@@ -72,47 +70,1082 @@ family,This is my father.,Nke a bụ nna m.
 family,My brother is at home.,Nwanne m nwoke nọ n'ụlọ.
 family,My sister is reading.,Nwanne m nwanyị na-agụ akwụkwọ.
 family,The family is eating together.,Ezinụlọ ahụ na-eri nri ọnụ.
-agriculture,The farmer planted maize yesterday.,Onye ọrụ ugbo kụrụ ọka ụnyaahụ.
-agriculture,The farmer planted maize today.,Onye ọrụ ugbo kụrụ ọka taa.
-agriculture,The farmer will plant maize tomorrow.,Onye ọrụ ugbo ga-akụ ọka echi.
-agriculture,The farmer harvested maize yesterday.,Onye ọrụ ugbo wetara ọka ụnyaahụ.
-agriculture,The farmer harvested maize today.,Onye ọrụ ugbo wetara ọka taa.
-agriculture,The farmer planted yam yesterday.,Onye ọrụ ugbo kụrụ ji ụnyaahụ.
-agriculture,The farmer planted yam today.,Onye ọrụ ugbo kụrụ ji taa.
-agriculture,The farmer will plant yam tomorrow.,Onye ọrụ ugbo ga-akụ ji echi.
+agriculture,The farmer planted cassava.,Onye ọrụ ugbo kụrụ akpụ.
+agriculture,The farmer planted beans.,Onye ọrụ ugbo kụrụ agwa.
+agriculture,The farmer planted rice.,Onye ọrụ ugbo kụrụ osikapa.
+agriculture,The farmer planted vegetables.,Onye ọrụ ugbo kụrụ akwụkwọ nri.
+agriculture,The farmer planted groundnuts.,Onye ọrụ ugbo kụrụ ahụekere.
+agriculture,The farmer planted cocoyam.,Onye ọrụ ugbo kụrụ ede.
+agriculture,The farmer returned from the farm.,Onye ọrụ ugbo si n'ubi lọta.
+agriculture,The farmer is working on the farm.,Onye ọrụ ugbo na-arụ ọrụ n'ubi.
+agriculture,The farmer is planting maize.,Onye ọrụ ugbo na-akụ ọka.
+agriculture,The farmer is planting yam.,Onye ọrụ ugbo na-akụ ji.
+agriculture,The farmer is harvesting maize.,Onye ọrụ ugbo na-ewe ihe ubi ọka.
+agriculture,The farmer is harvesting yam.,Onye ọrụ ugbo na-ewe ihe ubi ji.
+agriculture,The farmer harvested the crops.,Onye ọrụ ugbo wetara ihe ubi.
+agriculture,The farmer bought new seeds.,Onye ọrụ ugbo zụtara mkpụrụ ọhụrụ.
+agriculture,The farmer selected good seeds.,Onye ọrụ ugbo họọrọ mkpụrụ dị mma.
+agriculture,The farmer planted the seeds.,Onye ọrụ ugbo kụrụ mkpụrụ ndị ahụ.
+agriculture,The seeds are growing.,Mkpụrụ ndị ahụ na-eto.
+agriculture,The plants need water.,Osisi ndị ahụ chọrọ mmiri.
+agriculture,The crops need sunlight.,Ihe ọkụkụ chọrọ ìhè anyanwụ.
+agriculture,The farmer watered the crops.,Onye ọrụ ugbo nyere ihe ọkụkụ mmiri.
+agriculture,The farmer removed the weeds.,Onye ọrụ ugbo wepụrụ ahịhịa ọjọọ.
+agriculture,The farmer is weeding the farm.,Onye ọrụ ugbo na-akwọ ahịhịa n'ubi.
+agriculture,The farmer used a hoe.,Onye ọrụ ugbo ji ọgụ.
+agriculture,The farmer used a cutlass.,Onye ọrụ ugbo ji mma.
+agriculture,The farmer used a shovel.,Onye ọrụ ugbo ji shọvel.
+agriculture,The farmer bought a new hoe.,Onye ọrụ ugbo zụtara ọgụ ọhụrụ.
+agriculture,The farmer repaired his tools.,Onye ọrụ ugbo rụziri ngwa ọrụ ya.
+agriculture,The farm is large.,Ubi ahụ buru ibu.
+agriculture,The farm is small.,Ubi ahụ dị obere.
+agriculture,The farm is near the village.,Ubi ahụ dị nso n'obodo nta.
+agriculture,The farm is far from the house.,Ubi ahụ dị anya site n'ụlọ.
+agriculture,The soil is fertile.,Ala ahụ na-eme nri.
+agriculture,The soil is dry.,Ala ahụ kpọrọ nkụ.
+agriculture,The soil is wet.,Ala ahụ dị mmiri.
+agriculture,The farmer prepared the soil.,Onye ọrụ ugbo kwadebere ala ahụ.
+agriculture,The farmer dug the soil.,Onye ọrụ ugbo gwuru ala ahụ.
+agriculture,The farmer added manure to the soil.,Onye ọrụ ugbo tinyere nsị anụmanụ n'ala.
+agriculture,The rain helped the crops grow.,Mmiri ozuzo nyeere ihe ọkụkụ aka ito.
+agriculture,The rain fell on the farm.,Mmiri ozuzo zoro n'ubi.
+agriculture,The farm needs rain.,Ubi ahụ chọrọ mmiri ozuzo.
+agriculture,The crops were damaged by the rain.,Mmiri ozuzo mebiri ihe ọkụkụ.
+agriculture,The crops were damaged by the drought.,Oké ọkọchị mebiri ihe ọkụkụ.
+agriculture,The farmer protects the crops.,Onye ọrụ ugbo na-echebe ihe ọkụkụ.
+agriculture,The farmer checked the crops.,Onye ọrụ ugbo nyochara ihe ọkụkụ.
+agriculture,The farmer found pests on the plants.,Onye ọrụ ugbo hụrụ ụmụ ahụhụ na osisi ndị ahụ.
+agriculture,The farmer removed the pests.,Onye ọrụ ugbo wepụrụ ụmụ ahụhụ ndị ahụ.
+agriculture,The farmer used medicine on the crops.,Onye ọrụ ugbo tinyere ọgwụ n'ihe ọkụkụ.
+agriculture,The crops are healthy.,Ihe ọkụkụ dị mma.
+agriculture,The crops are ready for harvest.,Ihe ọkụkụ dị njikere maka owuwe ihe ubi.
+agriculture,The farmer harvested the maize.,Onye ọrụ ugbo wetara ọka.
+agriculture,The farmer harvested the cassava.,Onye ọrụ ugbo wetara akpụ.
+agriculture,The farmer harvested the beans.,Onye ọrụ ugbo wetara agwa.
+agriculture,The farmer harvested the rice.,Onye ọrụ ugbo wetara osikapa.
+agriculture,The farmer dug up the yams.,Onye ọrụ ugbo gwupụtara ji.
+agriculture,The farmer carried the crops home.,Onye ọrụ ugbo buru ihe ubi laa n'ụlọ.
+agriculture,The farmer stored the maize.,Onye ọrụ ugbo chekwara ọka.
+agriculture,The farmer stored the yam.,Onye ọrụ ugbo chekwara ji.
+agriculture,The farmer sold the crops at the market.,Onye ọrụ ugbo rere ihe ubi n'ahịa.
+agriculture,The farmer took the vegetables to the market.,Onye ọrụ ugbo buru akwụkwọ nri gaa n'ahịa.
+agriculture,The farmer bought fertilizer.,Onye ọrụ ugbo zụtara fatịlaịza.
+agriculture,Fertilizer helps crops grow.,Fatịlaịza na-enyere ihe ọkụkụ aka ito.
+agriculture,The farmer applied fertilizer to the farm.,Onye ọrụ ugbo tinyere fatịlaịza n'ubi.
+agriculture,The farmer owns a farm.,Onye ọrụ ugbo nwere ubi.
+agriculture,My father is a farmer.,Nna m bụ onye ọrụ ugbo.
+agriculture,My mother grows vegetables.,Nne m na-akụ akwụkwọ nri.
+agriculture,The farmer keeps chickens.,Onye ọrụ ugbo na-azụ ọkụkọ.
+agriculture,The farmer keeps goats.,Onye ọrụ ugbo na-azụ ewu.
+agriculture,The farmer keeps pigs.,Onye ọrụ ugbo na-azụ ezi.
+agriculture,The farmer keeps cattle.,Onye ọrụ ugbo na-azụ ehi.
+agriculture,The farmer feeds the animals.,Onye ọrụ ugbo na-enye anụmanụ nri.
+agriculture,The animals need water.,Anụmanụ ndị ahụ chọrọ mmiri.
+agriculture,The farmer built a house for the animals.,Onye ọrụ ugbo wuru ụlọ maka anụmanụ ndị ahụ.
+agriculture,The chicken laid eggs.,Ọkụkọ ahụ tọrọ akwa.
+agriculture,The farmer collected the eggs.,Onye ọrụ ugbo chịkọtara akwa ndị ahụ.
+agriculture,The goat is eating grass.,Ewu ahụ na-eri ahịhịa.
+agriculture,The cow is eating grass.,Ehi ahụ na-eri ahịhịa.
+agriculture,The farmer bought a tractor.,Onye ọrụ ugbo zụtara traktọ.
+agriculture,The tractor is working on the farm.,Traktọ ahụ na-arụ ọrụ n'ubi.
+agriculture,The farmer drove the tractor.,Onye ọrụ ugbo kụrụ traktọ.
+agriculture,Modern tools make farming easier.,Ngwa ọrụ ọgbara ọhụrụ na-eme ka ọrụ ugbo dị mfe.
+agriculture,Farming provides food for families.,Ọrụ ugbo na-enye ezinụlọ nri.
+agriculture,Farming is important to the community.,Ọrụ ugbo dị mkpa nye obodo.
+agriculture,The farmer works hard every day.,Onye ọrụ ugbo na-arụsi ọrụ ike kwa ụbọchị.
+agriculture,The farmer wakes up early.,Onye ọrụ ugbo na-eteta n'isi ụtụtụ.
+agriculture,The farmer works until evening.,Onye ọrụ ugbo na-arụ ọrụ ruo mgbede.
 agriculture,The farmer went to the farm yesterday.,Onye ọrụ ugbo gara n'ubi ụnyaahụ.
-agriculture,The farmer went to the farm today.,Onye ọrụ ugbo gara n'ubi taa.
 agriculture,The farmer will go to the farm tomorrow.,Onye ọrụ ugbo ga-aga n'ubi echi.
-agriculture,The crops are growing well today.,Ihe ọkụkụ na-eto nke ọma taa.
-agriculture,The crops grew well yesterday.,Ihe ọkụkụ toro nke ọma ụnyaahụ.
-food,Mary ate beans.,Mary riri agwa.
-food,Mary ate beans yesterday.,Mary riri agwa ụnyaahụ.
-food,Mary ate beans today.,Mary riri agwa taa.
-food,Peter ate rice.,Peter riri osikapa.
-food,Peter ate rice yesterday.,Peter riri osikapa ụnyaahụ.
-food,Peter ate rice today.,Peter riri osikapa taa.
-food,Grace cooked garri.,Grace siri garri.
-food,Grace cooked garri yesterday.,Grace siri garri ụnyaahụ.
-food,Grace cooked garri today.,Grace siri garri taa.
-food,Garri tastes good.,Garri na-atọ ụtọ.
-food,Garri tastes good today.,Garri na-atọ ụtọ taa.
-business,Grace bought yam.,Grace zụtara ji.
-business,Grace bought yam yesterday.,Grace zụtara ji ụnyaahụ.
-business,Grace bought yam today.,Grace zụtara ji taa.
-business,Chioma sold the phone.,Chioma rere ekwentị.
-business,Chioma sold the phone yesterday.,Chioma rere ekwentị ụnyaahụ.
-business,Chioma sold the phone today.,Chioma rere ekwentị taa.
-business,The trader visited Kano.,Onye ahịa gara Kano.
-business,The trader visited Kano yesterday.,Onye ahịa gara Kano ụnyaahụ.
-business,The trader visited Kano today.,Onye ahịa gara Kano taa.
-transportation,The car arrived early yesterday.,Ụgbọala rutere n'oge ụnyaahụ.
-transportation,The car arrived early today.,Ụgbọala rutere n'oge taa.
-transportation,The airport arrived early yesterday.,Ọdụ ụgbọ elu rutere n'oge ụnyaahụ.
-weather,Mary likes the storm.,Mary hụrụ oke ifufe n'anya.
-weather,Mary likes the storm today.,Mary hụrụ oke ifufe n'anya taa.
-weather,The wind is changing.,Ifufe na-agbanwe.
-weather,The wind is changing today.,Ifufe na-agbanwe taa.
-health,The doctor treated diabetes.,Dọkịta gwọrọ shuga.
-health,The doctor treated diabetes yesterday.,Dọkịta gwọrọ shuga ụnyaahụ.
-health,The doctor treated typhoid.,Dọkịta gwọrọ taịfọd.
-health,The doctor treated typhoid yesterday.,Dọkịta gwọrọ taịfọd ụnyaahụ.
+agriculture,The farmer planted maize yesterday.,Onye ọrụ ugbo kụrụ ọka ụnyaahụ.
+agriculture,The farmer planted yam last week.,Onye ọrụ ugbo kụrụ ji n'izu gara aga.
+agriculture,The farmer will harvest the crops soon.,Onye ọrụ ugbo ga-ewe ihe ubi n'oge na-adịghị anya.
+agriculture,The farmer is preparing for the planting season.,Onye ọrụ ugbo na-akwado maka oge ịkụ ihe ọkụkụ.
+agriculture,The planting season has started.,Oge ịkụ ihe ọkụkụ amalitela.
+agriculture,The harvest season has started.,Oge owuwe ihe ubi amalitela.
+agriculture,The farmer is waiting for the rain.,Onye ọrụ ugbo na-eche mmiri ozuzo.
+agriculture,The farmer checks the weather before planting.,Onye ọrụ ugbo na-enyocha ihu igwe tupu ọ kụọ ihe ọkụkụ.
+agriculture,The farmer plans the work carefully.,Onye ọrụ ugbo na-eme atụmatụ ọrụ ahụ nke ọma.
+agriculture,The farm produced a good harvest.,Ubi ahụ nyere ezigbo owuwe ihe ubi.
+agriculture,The harvest was very large.,Owuwe ihe ubi ahụ buru nnọọ ibu.
+agriculture,The harvest was poor this year.,Owuwe ihe ubi ahụ adịghị mma n'afọ a.
+agriculture,The farmer sold the harvest.,Onye ọrụ ugbo rere owuwe ihe ubi ahụ.
+agriculture,The farmer saved some seeds for next season.,Onye ọrụ ugbo chekwara ụfọdụ mkpụrụ maka oge ọzọ.
+agriculture,The farmer teaches his children farming.,Onye ọrụ ugbo na-akụziri ụmụ ya ọrụ ugbo.
+business,The business is growing.,Azụmahịa ahụ na-eto eto.
+business,The company is successful.,Ụlọ ọrụ ahụ na-aga nke ọma.
+business,She owns a small business.,Ọ bụ ya nwe obere azụmahịa.
+business,He started a new business.,Ọ malitere azụmahịa ọhụrụ.
+business,The shop is closed.,Ụlọ ahịa ahụ mechiri emechi.
+business,The customer entered the shop.,Onye ahịa ahụ banyere n'ụlọ ahịa ahụ.
+business,The customer is waiting.,Onye ahịa ahụ na-eche.
+business,The customer bought a product.,Onye ahịa ahụ zụtara ngwaahịa.
+business,The customer paid for the product.,Onye ahịa ahụ kwụrụ ụgwọ maka ngwaahịa ahụ.
+business,The product is available.,Ngwaahịa ahụ dị.
+business,The product is not available.,Ngwaahịa ahụ adịghị.
+business,The product is expensive.,Ngwaahịa ahụ dị oke ọnụ.
+business,The product is cheap.,Ngwaahịa ahụ dị ọnụ ala.
+business,The product is good.,Ngwaahịa ahụ dị mma.
+business,The product is new.,Ngwaahịa ahụ bụ nke ọhụrụ.
+business,The product is popular.,Ngwaahịa ahụ na-ewu ewu.
+business,The company sells clothes.,Ụlọ ọrụ ahụ na-ere uwe.
+business,The company sells food.,Ụlọ ọrụ ahụ na-ere nri.
+business,The company sells computers.,Ụlọ ọrụ ahụ na-ere kọmputa.
+business,The shop sells shoes.,Ụlọ ahịa ahụ na-ere akpụkpọ ụkwụ.
+business,The market is busy.,Ahịa ahụ na-eme mkpọtụ.
+business,The market is crowded.,Ahịa ahụ jupụtara na ndị mmadụ.
+business,The seller is friendly.,Onye na-ere ahịa ahụ nwere omume ọma.
+business,The seller showed me the product.,Onye na-ere ahịa ahụ gosiri m ngwaahịa ahụ.
+business,The buyer wants a discount.,Onye na-azụ ahịa chọrọ mbelata ọnụahịa.
+business,The price is too high.,Ọnụahịa ahụ dị oke elu.
+business,The price is reasonable.,Ọnụahịa ahụ dabara adaba.
+business,The price has changed.,Ọnụahịa ahụ agbanweela.
+business,The price is increasing.,Ọnụahịa ahụ na-abawanye.
+business,The price is decreasing.,Ọnụahịa ahụ na-ebelata.
+business,The customer asked for the price.,Onye ahịa ahụ jụrụ maka ọnụahịa ahụ.
+business,How much does it cost?,Ego ole ka ọ na-eri?
+business,The product costs five thousand naira.,Ngwaahịa ahụ na-eri naịra puku ise.
+business,I want to buy this product.,Achọrọ m ịzụta ngwaahịa a.
+business,I want to sell this product.,Achọrọ m ire ngwaahịa a.
+business,We have many products.,Anyị nwere ọtụtụ ngwaahịa.
+business,We have few products.,Anyị nwere ngwaahịa ole na ole.
+business,The stock is finished.,Ngwaahịa dị n'ụlọ ahịa agwụla.
+business,The stock is available.,Ngwaahịa dị n'ụlọ ahịa dị.
+business,The warehouse is full.,Ụlọ nkwakọba ngwaahịa ahụ juru.
+business,The warehouse is empty.,Ụlọ nkwakọba ngwaahịa ahụ tọgbọ chakoo.
+business,The company has many employees.,Ụlọ ọrụ ahụ nwere ọtụtụ ndị ọrụ.
+business,The manager is in the office.,Onye njikwa ahụ nọ n'ọfịs.
+business,The manager called a meeting.,Onye njikwa ahụ kpọrọ nzukọ.
+business,The employees are working.,Ndị ọrụ ahụ na-arụ ọrụ.
+business,The employee arrived early.,Onye ọrụ ahụ bịara n'oge.
+business,The employee arrived late.,Onye ọrụ ahụ bịara n'oge.
+business,The office is open.,Ọfịs ahụ mepere emepe.
+business,The office is closed.,Ọfịs ahụ mechiri emechi.
+business,The meeting starts at nine o'clock.,Nzukọ ahụ na-amalite n'elekere itoolu.
+business,The meeting has ended.,Nzukọ ahụ agwụla.
+business,We discussed the business plan.,Anyị tụlere atụmatụ azụmahịa ahụ.
+business,The business plan is ready.,Atụmatụ azụmahịa ahụ adịla njikere.
+business,The company needs more money.,Ụlọ ọrụ ahụ chọrọ ego ọzọ.
+business,The company made a profit.,Ụlọ ọrụ ahụ nwetara uru.
+business,The company made a loss.,Ụlọ ọrụ ahụ nwetara mfu.
+business,The business is losing money.,Azụmahịa ahụ na-atụfu ego.
+business,The business is making money.,Azụmahịa ahụ na-enweta ego.
+business,The company opened a new branch.,Ụlọ ọrụ ahụ mepere alaka ọhụrụ.
+business,The branch is far away.,Alaka ahụ dị anya.
+business,The branch is nearby.,Alaka ahụ dị nso.
+business,The company has many branches.,Ụlọ ọrụ ahụ nwere ọtụtụ alaka.
+business,The bank is open today.,Ụlọ akụ ahụ mepere taa.
+business,The bank is closed today.,Ụlọ akụ ahụ mechiri taa.
+business,I deposited money into my account.,E tinyere m ego n'akaụntụ m.
+business,I withdrew money from my account.,E wepụtara m ego n'akaụntụ m.
+business,The payment was successful.,Ịkwụ ụgwọ ahụ gara nke ọma.
+business,The payment failed.,Ịkwụ ụgwọ ahụ emeghị nke ọma.
+business,Pay with cash.,Jiri ego aka kwụọ ụgwọ.
+business,Pay with your card.,Jiri kaadị gị kwụọ ụgwọ.
+business,The customer paid online.,Onye ahịa ahụ kwụrụ ụgwọ n'ịntanetị.
+business,Send the invoice.,Ziga akwụkwọ ọnụahịa ahụ.
+business,The invoice has been paid.,A kwụọla akwụkwọ ọnụahịa ahụ.
+business,The invoice is not ready.,Akwụkwọ ọnụahịa ahụ adịbeghị njikere.
+business,The order has arrived.,Iwu ahụ abịala.
+business,Place an order.,Tinye iwu.
+business,Cancel the order.,Kagbuo iwu ahụ.
+business,The order is delayed.,Iwu ahụ egbuola oge.
+business,The order is ready.,Iwu ahụ adịla njikere.
+business,We deliver products.,Anyị na-ebuga ngwaahịa.
+business,The product was delivered today.,E butere ngwaahịa ahụ taa.
+business,The delivery is late.,Nnyefe ahụ abịala n'oge.
+business,The delivery is free.,Nnyefe ahụ bụ n'efu.
+business,The customer gave us an address.,Onye ahịa ahụ nyere anyị adreesị.
+business,Write down the address.,Dee adreesị ahụ.
+business,The company has a website.,Ụlọ ọrụ ahụ nwere weebụsaịtị.
+business,Customers can order online.,Ndị ahịa nwere ike ịtụ ihe n'ịntanetị.
+business,The business uses social media.,Azụmahịa ahụ na-eji mgbasa ozi mmekọrịta.
+business,The advertisement is effective.,Mgbasa ozi ahụ na-arụ ọrụ nke ọma.
+business,The company is advertising a new product.,Ụlọ ọrụ ahụ na-akpọsa ngwaahịa ọhụrụ.
+business,The business has many customers.,Azụmahịa ahụ nwere ọtụtụ ndị ahịa.
+business,The customer is satisfied.,Onye ahịa ahụ nwere afọ ojuju.
+business,The customer is not satisfied.,Onye ahịa ahụ enweghị afọ ojuju.
+business,The customer made a complaint.,Onye ahịa ahụ mere mkpesa.
+business,We answered the complaint.,Anyị zara mkpesa ahụ.
+business,Good service is important.,Ọrụ ọma dị mkpa.
+business,The service is fast.,Ọrụ ahụ dị ngwa.
+business,The service is slow.,Ọrụ ahụ na-eji nwayọ.
+business,The company provides good service.,Ụlọ ọrụ ahụ na-enye ọrụ ọma.
+business,The business is expanding.,Azụmahịa ahụ na-agbasawanye.
+business,The business is small.,Azụmahịa ahụ dị obere.
+business,The business is large.,Azụmahịa ahụ buru ibu.
+business,The owner manages the business.,Onye nwe ya na-elekọta azụmahịa ahụ.
+business,The owner hired a new worker.,Onye nwe ya goro onye ọrụ ọhụrụ.
+business,The worker received a salary.,Onye ọrụ ahụ nwetara ụgwọ ọnwa.
+business,The salary is paid monthly.,A na-akwụ ụgwọ ọnwa kwa ọnwa.
+business,The company pays its workers.,Ụlọ ọrụ ahụ na-akwụ ndị ọrụ ya ụgwọ.
+business,The company needs more workers.,Ụlọ ọrụ ahụ chọrọ ndị ọrụ ọzọ.
+business,The business is growing quickly.,Azụmahịa ahụ na-eto ngwa ngwa.
+business,The business is facing a problem.,Azụmahịa ahụ na-eche nsogbu ihu.
+business,The plan is successful.,Atụmatụ ahụ gara nke ọma.
+business,The plan failed.,Atụmatụ ahụ emeghị nke ọma.
+business,We must work together.,Anyị ga-arụkọ ọrụ ọnụ.
+business,The team is working together.,Otu ahụ na-arụkọ ọrụ ọnụ.
+business,The company makes decisions carefully.,Ụlọ ọrụ ahụ na-eme mkpebi nke ọma.
+business,The manager made a decision.,Onye njikwa ahụ mere mkpebi.
+business,The business needs better planning.,Azụmahịa ahụ chọrọ atụmatụ ka mma.
+business,The meeting was useful.,Nzukọ ahụ bara uru.
+business,The contract is ready.,Nkwekọrịta ahụ adịla njikere.
+business,Sign the contract.,Banye aka na nkwekọrịta ahụ.
+business,The contract has expired.,Nkwekọrịta ahụ agwụla.
+business,The company signed an agreement.,Ụlọ ọrụ ahụ bịanyere aka na nkwekọrịta.
+business,The business follows the rules.,Azụmahịa ahụ na-agbaso iwu.
+business,The company pays taxes.,Ụlọ ọrụ ahụ na-akwụ ụtụ isi.
+business,The business is registered.,E debanyela azụmahịa ahụ aha.
+business,The company is growing every year.,Ụlọ ọrụ ahụ na-eto kwa afọ.
+business,The business is important to the community.,Azụmahịa ahụ dị mkpa nye obodo.
+business,The company creates jobs.,Ụlọ ọrụ ahụ na-emepụta ọrụ.
+business,The business supports the community.,Azụmahịa ahụ na-akwado obodo.
+daily_activities,I wake up early.,Ana m eteta n'isi ụtụtụ.
+daily_activities,I wake up at six o'clock.,Ana m eteta n'elekere isii.
+daily_activities,I get out of bed.,Ana m esi n'àkwà bilie.
+daily_activities,I make my bed.,Ana m edozi ihe ndina m.
+daily_activities,I open the window.,Ana m emepe windo.
+daily_activities,I close the window.,Ana m emechi windo.
+daily_activities,I brush my teeth.,Ana m asa ezé m.
+daily_activities,I wash my face.,Ana m asa ihu m.
+daily_activities,I take a bath.,Ana m asa ahụ.
+daily_activities,I take a shower.,Ana m asa ahụ.
+daily_activities,I comb my hair.,Ana m asacha ntutu m.
+daily_activities,I get dressed.,Ana m eyi uwe.
+daily_activities,I wear my shoes.,Ana m eyi akpụkpọ ụkwụ m.
+daily_activities,I prepare breakfast.,Ana m akwadebe nri ụtụtụ.
+daily_activities,I eat breakfast.,Ana m eri nri ụtụtụ.
+daily_activities,I drink tea.,Ana m aṅụ tii.
+daily_activities,I drink water.,Ana m aṅụ mmiri.
+daily_activities,I leave the house.,Ana m apụ n'ụlọ.
+daily_activities,I lock the door.,Ana m akpọchi ụzọ.
+daily_activities,I go to school.,Ana m aga ụlọ akwụkwọ.
+daily_activities,I go to work.,Ana m aga ọrụ.
+daily_activities,I walk to school.,Ana m eje ije gaa ụlọ akwụkwọ.
+daily_activities,I take a bus to work.,Ana m eji bọs aga ọrụ.
+daily_activities,I arrive at school.,Ana m erute ụlọ akwụkwọ.
+daily_activities,I arrive at work.,Ana m erute ọrụ.
+daily_activities,I attend a class.,Ana m aga klaasị.
+daily_activities,I study every morning.,Ana m amụ ihe kwa ụtụtụ.
+daily_activities,I read a book.,Ana m agụ akwụkwọ.
+daily_activities,I write in my notebook.,Ana m ede n'akwụkwọ ndetu m.
+daily_activities,I do my homework.,Ana m eme ihe omume ụlọ akwụkwọ m.
+daily_activities,I answer the question.,Ana m aza ajụjụ ahụ.
+daily_activities,I ask a question.,Ana m ajụ ajụjụ.
+daily_activities,I listen to the teacher.,Ana m ege onye nkuzi ntị.
+daily_activities,I use my computer.,Ana m eji kọmputa m.
+daily_activities,I check my phone.,Ana m ele ekwentị m.
+daily_activities,I send a message.,Ana m eziga ozi.
+daily_activities,I make a phone call.,Ana m akpọ oku.
+daily_activities,I talk to my friend.,Ana m agwa enyi m okwu.
+daily_activities,I meet my friend.,Ana m ezute enyi m.
+daily_activities,I go to the market.,Ana m aga ahịa.
+daily_activities,I buy food.,Ana m azụta nri.
+daily_activities,I buy clothes.,Ana m azụta uwe.
+daily_activities,I return home.,Ana m alaghachi n'ụlọ.
+daily_activities,I prepare lunch.,Ana m akwadebe nri ehihie.
+daily_activities,I eat lunch.,Ana m eri nri ehihie.
+daily_activities,I wash the dishes.,Ana m asa efere.
+daily_activities,I clean the kitchen.,Ana m ehicha kichin.
+daily_activities,I sweep the floor.,Ana m azacha ala.
+daily_activities,I mop the floor.,Ana m eji mop asa ala.
+daily_activities,I clean the house.,Ana m ehicha ụlọ.
+daily_activities,I wash my clothes.,Ana m asa uwe m.
+daily_activities,I dry my clothes.,Ana m akpọọ uwe m.
+daily_activities,I fold my clothes.,Ana m apịaji uwe m.
+daily_activities,I cook dinner.,Ana m esi nri abalị.
+daily_activities,I eat dinner.,Ana m eri nri abalị.
+daily_activities,I drink water before bed.,Ana m aṅụ mmiri tupu m lakpuo ụra.
+daily_activities,I watch television.,Ana m ekiri telivishọn.
+daily_activities,I listen to music.,Ana m ege egwu ntị.
+daily_activities,I read the news.,Ana m agụ akụkọ.
+daily_activities,I use the internet.,Ana m eji ịntanetị.
+daily_activities,I exercise every day.,Ana m emega ahụ kwa ụbọchị.
+daily_activities,I go for a walk.,Ana m eje ije.
+daily_activities,I play football.,Ana m agba bọl.
+daily_activities,I rest in the afternoon.,Ana m ezu ike n'ehihie.
+daily_activities,I visit my friend.,Ana m aga ileta enyi m.
+daily_activities,I visit my family.,Ana m aga ileta ezinụlọ m.
+daily_activities,I help my mother.,Ana m enyere nne m aka.
+daily_activities,I help my father.,Ana m enyere nna m aka.
+daily_activities,I help my brother.,Ana m enyere nwanne m nwoke aka.
+daily_activities,I help my sister.,Ana m enyere nwanne m nwanyị aka.
+daily_activities,I talk with my family.,Ana m agwa ezinụlọ m okwu.
+daily_activities,We eat together.,Anyị na-erikọ nri ọnụ.
+daily_activities,We work together.,Anyị na-arụkọ ọrụ ọnụ.
+daily_activities,I wash my hands.,Ana m asa aka m.
+daily_activities,I clean my shoes.,Ana m ehicha akpụkpọ ụkwụ m.
+daily_activities,I organize my room.,Ana m edozi ụlọ m.
+daily_activities,I arrange my books.,Ana m edozi akwụkwọ m.
+daily_activities,I prepare for tomorrow.,Ana m akwadebe maka echi.
+daily_activities,I set my alarm.,Ana m edozi elekere mkpu m.
+daily_activities,I charge my phone.,Ana m akwụ ụgwọ ekwentị m.
+daily_activities,I check the time.,Ana m ele oge.
+daily_activities,I go to sleep early.,Ana m alaba n'isi ụtụtụ.
+daily_activities,I go to bed late.,Ana m alaba n'oge.
+daily_activities,I am tired.,Ike agwụla m.
+daily_activities,I am busy.,Ana m arụsi ọrụ ike.
+daily_activities,I am free today.,Enwere m ohere taa.
+daily_activities,I am going home.,Ana m ala n'ụlọ.
+daily_activities,I am waiting for the bus.,Ana m eche bọs.
+daily_activities,I am waiting for my friend.,Ana m eche enyi m.
+daily_activities,I am preparing for school.,Ana m akwadebe maka ụlọ akwụkwọ.
+daily_activities,I am preparing for work.,Ana m akwadebe maka ọrụ.
+daily_activities,I forgot my keys.,Echefuru m igodo m.
+daily_activities,I found my keys.,Achọtara m igodo m.
+daily_activities,I lost my phone.,Echefuru m ekwentị m.
+daily_activities,I found my phone.,Achọtara m ekwentị m.
+daily_activities,I opened the door.,Emepere m ụzọ.
+daily_activities,I closed the door.,Emechiri m ụzọ.
+daily_activities,I turned on the light.,Agbanyere m ọkụ.
+daily_activities,I turned off the light.,Agbanyụrụ m ọkụ.
+daily_activities,The day is over.,Ụbọchị agwụla.
+daily_activities,Tomorrow is a new day.,Echi bụ ụbọchị ọhụrụ.
+daily_activities,I have a busy day.,Enwere m ụbọchị ọrụ juru.
+daily_activities,I have many things to do.,Enwere m ọtụtụ ihe m ga-eme.
+daily_activities,I finished my work.,Emechala m ọrụ m.
+daily_activities,I finished my homework.,Emechala m ihe omume ụlọ akwụkwọ m.
+daily_activities,I am ready for the day.,Adịla m njikere maka ụbọchị ahụ.
+daily_activities,Today was a good day.,Taa bụ ụbọchị ọma.
+daily_activities,I had a busy morning.,Ụtụtụ m jupụtara n'ọrụ.
+daily_activities,I had a good afternoon.,Ehihie m dị mma.
+daily_activities,I had a peaceful evening.,Mgbede m dị jụụ.
+daily_activities,Good night.,Ka chi foo.
+education,He is a student.,Ọ bụ nwa akwụkwọ.
+education,The students are in the classroom.,Ụmụ akwụkwọ nọ n'ime klaasị.
+education,The teacher entered the classroom.,Onye nkuzi batara n'ime klaasị.
+education,The student is writing a sentence.,Nwa akwụkwọ ahụ na-ede ahịrịokwu.
+education,The student opened the book.,Nwa akwụkwọ ahụ meghere akwụkwọ ahụ.
+education,The teacher opened the door.,Onye nkuzi meghere ọnụ ụzọ.
+education,The lesson has started.,Ihe ọmụmụ amalitela.
+education,The lesson is important.,Ihe ọmụmụ ahụ dị mkpa.
+education,The class is beginning.,Klaasị na-amalite.
+education,The class has ended.,Klaasị agwụla.
+education,The students are listening to the teacher.,Ụmụ akwụkwọ na-ege onye nkuzi ntị.
+education,The teacher asked a question.,Onye nkuzi jụrụ ajụjụ.
+education,The student answered the question.,Nwa akwụkwọ ahụ zara ajụjụ ahụ.
+education,The teacher explained the lesson.,Onye nkuzi kọwara ihe ọmụmụ ahụ.
+education,I understand the lesson.,Aghọtara m ihe ọmụmụ ahụ.
+education,I do not understand the lesson.,Aghọtaghị m ihe ọmụmụ ahụ.
+education,He is studying English.,Ọ na-amụ Bekee.
+education,They are learning Igbo.,Ha na-amụ Igbo.
+education,I am learning a new subject.,Ana m amụ isiokwu ọhụrụ.
+education,Mathematics is difficult.,Mgbakọ na mwepụ siri ike.
+education,English is interesting.,Bekee na-atọ ụtọ.
+education,The student likes science.,Nwa akwụkwọ ahụ na-enwe mmasị na sayensị.
+education,The teacher teaches history.,Onye nkuzi na-akụzi akụkọ ihe mere eme.
+education,The students study geography.,Ụmụ akwụkwọ na-amụ ọdịdị ala.
+education,The school teaches many subjects.,Ụlọ akwụkwọ ahụ na-akụzi ọtụtụ isiokwu.
+education,I read every morning.,Ana m agụ akwụkwọ kwa ụtụtụ.
+education,She studies every evening.,Ọ na-amụ ihe kwa mgbede.
+education,He reads a book every day.,Ọ na-agụ akwụkwọ kwa ụbọchị.
+education,The students study together.,Ụmụ akwụkwọ na-amụ ihe ọnụ.
+education,The teacher works hard.,Onye nkuzi na-arụsi ọrụ ike.
+education,The student works hard.,Nwa akwụkwọ ahụ na-arụsi ọrụ ike.
+education,The students are preparing for the examination.,Ụmụ akwụkwọ na-akwado maka ule ahụ.
+education,The examination will start tomorrow.,Ule ahụ ga-amalite echi.
+education,The examination was difficult.,Ule ahụ siri ike.
+education,The examination was easy.,Ule ahụ dị mfe.
+education,The student failed the examination.,Nwa akwụkwọ ahụ adaghị ule ahụ.
+education,She passed her examination.,Ọ gafere ule ya.
+education,He is preparing for his examination.,Ọ na-akwado maka ule ya.
+education,I have an examination tomorrow.,Enwere m ule echi.
+education,The students wrote the examination.,Ụmụ akwụkwọ dere ule ahụ.
+education,The teacher marked the examination.,Onye nkuzi akara ule ahụ.
+education,The teacher gave the students homework.,Onye nkuzi nyere ụmụ akwụkwọ ọrụ ụlọ.
+education,I have homework to do.,Enwere m ọrụ ụlọ m ga-arụ.
+education,She completed her homework.,Ọ rụchara ọrụ ụlọ ya.
+education,He forgot his homework.,Ọ chefuru ọrụ ụlọ ya.
+education,The student submitted the assignment.,Nwa akwụkwọ ahụ nyefere ọrụ ahụ.
+education,The teacher gave us an assignment.,Onye nkuzi nyere anyị ọrụ.
+education,The assignment is difficult.,Ọrụ ahụ siri ike.
+education,I finished my assignment.,Emechara m ọrụ m.
+education,The student wrote an important note.,Nwa akwụkwọ ahụ dere ihe dị mkpa.
+education,The teacher wrote on the board.,Onye nkuzi dere n'elu bọọdụ.
+education,The students copied the notes.,Ụmụ akwụkwọ depụtaghachiri ihe ndị ahụ e dere.
+education,The book is on the table.,Akwụkwọ ahụ dị n'elu tebụl.
+education,I borrowed a book from the library.,Agbaziri m akwụkwọ n'ọba akwụkwọ.
+education,The library is closed.,Ọba akwụkwọ mechiri.
+education,The library has many books.,Ọba akwụkwọ nwere ọtụtụ akwụkwọ.
+education,The student went to the library.,Nwa akwụkwọ ahụ gara n'ọba akwụkwọ.
+education,The students are reading in the library.,Ụmụ akwụkwọ na-agụ akwụkwọ n'ọba akwụkwọ.
+education,The classroom is clean.,Klaasị ahụ dị ọcha.
+education,The classroom is large.,Klaasị ahụ buru ibu.
+education,The classroom is small.,Klaasị ahụ dị obere.
+education,The school has many classrooms.,Ụlọ akwụkwọ ahụ nwere ọtụtụ klaasị.
+education,The school has a library.,Ụlọ akwụkwọ ahụ nwere ọba akwụkwọ.
+education,The school has a laboratory.,Ụlọ akwụkwọ ahụ nwere ụlọ nyocha.
+education,The students entered the classroom.,Ụmụ akwụkwọ banyere n'ime klaasị.
+education,The students left the classroom.,Ụmụ akwụkwọ si na klaasị pụọ.
+education,The teacher came to school early.,Onye nkuzi bịara ụlọ akwụkwọ n'oge.
+education,The student came late to school.,Nwa akwụkwọ ahụ bịara ụlọ akwụkwọ n'oge gafere.
+education,She went to school yesterday.,Ọ gara ụlọ akwụkwọ ụnyaahụ.
+education,He will go to school tomorrow.,Ọ ga-aga ụlọ akwụkwọ echi.
+education,I went to school this morning.,Agara m ụlọ akwụkwọ n'ụtụtụ a.
+education,We are going to school now.,Anyị na-aga ụlọ akwụkwọ ugbu a.
+education,The students returned home after school.,Ụmụ akwụkwọ laghachiri n'ụlọ mgbe ụlọ akwụkwọ gachara.
+education,The teacher came from Enugu.,Onye nkuzi si Enugu bịa.
+education,The student lives near the school.,Nwa akwụkwọ ahụ bi nso ụlọ akwụkwọ ahụ.
+education,My school is far from my house.,Ụlọ akwụkwọ m dị anya site n'ụlọ m.
+education,Her school is in Enugu.,Ụlọ akwụkwọ ya dị na Enugu.
+education,The students wear school uniforms.,Ụmụ akwụkwọ na-eyi uwe ụlọ akwụkwọ.
+education,The teacher is wearing a new shirt.,Onye nkuzi na-eyi uwe elu ọhụrụ.
+education,The student brought a pen.,Nwa akwụkwọ ahụ wetara mkpịsị akwụkwọ.
+education,I need a new notebook.,Achọrọ m akwụkwọ ndetu ọhụrụ.
+education,She lost her pencil.,Ọ tụfuru pensụl ya.
+education,He bought a new school bag.,Ọ zụtara akpa ụlọ akwụkwọ ọhụrụ.
+education,The student has a dictionary.,Nwa akwụkwọ ahụ nwere akwụkwọ ọkọwa okwu.
+education,Please read the question.,Biko gụọ ajụjụ ahụ.
+education,Please answer the question.,Biko zaa ajụjụ ahụ.
+education,Please open your book.,Biko mepee akwụkwọ gị.
+education,Please close your book.,Biko mechie akwụkwọ gị.
+education,Listen carefully to the teacher.,Gee onye nkuzi ntị nke ọma.
+education,Do not make noise in the classroom.,Emela mkpọtụ n'ime klaasị.
+education,The student asked the teacher a question.,Nwa akwụkwọ ahụ jụrụ onye nkuzi ajụjụ.
+education,The teacher answered the question.,Onye nkuzi zara ajụjụ ahụ.
+education,The students learned something new.,Ụmụ akwụkwọ mụtara ihe ọhụrụ.
+education,Education is important.,Mmụta dị mkpa.
+education,Knowledge is valuable.,Ọmụma bara uru.
+education,The student wants to become a doctor.,Nwa akwụkwọ ahụ chọrọ ịghọ dọkịta.
+education,She wants to become a teacher.,Ọ chọrọ ịghọ onye nkuzi.
+education,He wants to study computer science.,Ọ chọrọ ịmụ sayensị kọmputa.
+education,The students are ready to learn.,Ụmụ akwụkwọ dị njikere ịmụ ihe.
+education,The teacher is ready for the lesson.,Onye nkuzi dị njikere maka ihe ọmụmụ ahụ.
+education,We learn something new every day.,Anyị na-amụta ihe ọhụrụ kwa ụbọchị.
+education,The student improved after studying.,Nwa akwụkwọ ahụ mere nke ọma karịa mgbe ọ mụsịrị ihe.
+food,The food is ready.,Nri ahụ adịla njikere.
+food,The food is delicious.,Nri ahụ na-atọ ụtọ.
+food,The food is hot.,Nri ahụ dị ọkụ.
+food,The food is cold.,Nri ahụ dị jụụ.
+food,The food is fresh.,Nri ahụ dị ọhụrụ.
+food,The food is tasty.,Nri ahụ na-atọ ụtọ.
+food,I like this food.,Nri a na-amasị m.
+food,I do not like this food.,Nri a anaghị amasị m.
+food,What are you cooking?,Gịnị ka ị na-esi?
+food,I am cooking food.,Ana m esi nri.
+food,She is cooking dinner.,Ọ na-esi nri abalị.
+food,He is preparing breakfast.,Ọ na-akwadebe nri ụtụtụ.
+food,We are preparing lunch.,Anyị na-akwadebe nri ehihie.
+food,The mother is cooking in the kitchen.,Nne ahụ na-esi nri n'ọnụ ụlọ nri.
+food,The child is eating food.,Nwa ahụ na-eri nri.
+food,We are eating dinner.,Anyị na-eri nri abalị.
+food,I ate breakfast this morning.,Eriwo m nri ụtụtụ taa.
+food,I will eat later.,Aga m eri nri ma emechaa.
+food,Please give me some food.,Biko nye m nri.
+food,Please give me some water.,Biko nye m mmiri.
+food,The child wants food.,Nwa ahụ chọrọ nri.
+food,The baby is drinking milk.,Nwa ọhụrụ ahụ na-aṅụ mmiri ara.
+food,I drink tea every morning.,Ana m aṅụ tii kwa ụtụtụ.
+food,She drinks coffee.,Ọ na-aṅụ kọfị.
+food,He drinks cold water.,Ọ na-aṅụ mmiri oyi.
+food,We drink fruit juice.,Anyị na-aṅụ ihe ọṅụṅụ mkpụrụ osisi.
+food,The water is clean.,Mmiri ahụ dị ọcha.
+food,The water is dirty.,Mmiri ahụ ruru unyi.
+food,The soup is hot.,Ofe ahụ dị ọkụ.
+food,The soup is delicious.,Ofe ahụ na-atọ ụtọ.
+food,She made a pot of soup.,Ọ siri ite ofe.
+food,The soup needs more salt.,Ofe ahụ chọrọ nnu ọzọ.
+food,Add some water to the soup.,Tinye ntakịrị mmiri na ofe ahụ.
+food,Add some salt to the food.,Tinye ntakịrị nnu na nri ahụ.
+food,The food needs more pepper.,Nri ahụ chọrọ ose ọzọ.
+food,The pepper is very hot.,Ose ahụ dị ọkụ nke ukwuu.
+food,The rice is ready.,Osikapa adịla njikere.
+food,She cooked rice.,Ọ siri osikapa.
+food,We ate rice and beans.,Anyị riri osikapa na agwa.
+food,The beans are cooking.,Agwa na-esi.
+food,The yam is ready.,Ji adịla njikere.
+food,She boiled the yam.,Ọ siri ji.
+food,He ate roasted yam.,Ọ riri ji a ṅara n'ọkụ.
+food,The cassava is fresh.,Akpụ ahụ dị ọhụrụ.
+food,The farmer brought cassava.,Onye ọrụ ugbo wetara akpụ.
+food,The maize is ready to eat.,Ọka ahụ adịla njikere iri.
+food,She roasted the maize.,Ọ ṅara ọka n'ọkụ.
+food,The plantain is ripe.,Unere ahụ achawo.
+food,The banana is ripe.,Unere ahụ achawo.
+food,The fruit is sweet.,Mkpụrụ osisi ahụ na-atọ ụtọ.
+food,I bought some oranges.,Azụtara m oroma ụfọdụ.
+food,She ate a mango.,Ọ riri mango.
+food,The apple is red.,Apụl ahụ na-acha ọbara ọbara.
+food,The vegetables are fresh.,Akwụkwọ nri ahụ dị ọhụrụ.
+food,Wash the vegetables.,Saa akwụkwọ nri ahụ.
+food,She cut the vegetables.,Ọ gbubiri akwụkwọ nri ahụ.
+food,The tomato is fresh.,Tomato ahụ dị ọhụrụ.
+food,The onion is small.,Yabasị ahụ dị obere.
+food,The pepper is green.,Ose ahụ na-acha akwụkwọ ndụ.
+food,The carrot is orange.,Karọt ahụ na-acha oroma.
+food,We need more vegetables.,Anyị chọrọ akwụkwọ nri ọzọ.
+food,The market sells fresh food.,Ahịa ahụ na-ere nri ọhụrụ.
+food,I went to the market to buy food.,Agara m ahịa ịzụta nri.
+food,She bought vegetables at the market.,Ọ zụtara akwụkwọ nri n'ahịa.
+food,He bought fish at the market.,Ọ zụtara azụ n'ahịa.
+food,The fish is fresh.,Azụ ahụ dị ọhụrụ.
+food,She cooked the fish.,Ọ siri azụ ahụ.
+food,The chicken is ready.,Ọkụkọ ahụ adịla njikere.
+food,She cooked chicken for dinner.,Ọ siri ọkụkọ maka nri abalị.
+food,The meat is soft.,Anụ ahụ dị nro.
+food,The meat is hard.,Anụ ahụ siri ike.
+food,We bought meat from the market.,Anyị zụtara anụ n'ahịa.
+food,The egg is fresh.,Akwa ahụ dị ọhụrụ.
+food,She boiled an egg.,Ọ siri akwa.
+food,I ate two eggs.,Eri m akwa abụọ.
+food,The bread is fresh.,Achịcha ahụ dị ọhụrụ.
+food,He bought bread for breakfast.,Ọ zụtara achịcha maka nri ụtụtụ.
+food,The cake is sweet.,Achịcha ahụ na-atọ ụtọ.
+food,She baked a cake.,Ọ kpụrụ achịcha achịcha.
+food,The plate is on the table.,Efere ahụ dị n'elu tebụl.
+food,Put the food on the table.,Tinye nri ahụ n'elu tebụl.
+food,Bring a clean plate.,Weta efere dị ọcha.
+food,Wash the plates.,Saa efere ndị ahụ.
+food,The kitchen is clean.,Ụlọ nri ahụ dị ọcha.
+food,The kitchen is dirty.,Ụlọ nri ahụ ruru unyi.
+food,She is washing the dishes.,Ọ na-asa efere.
+food,He is cleaning the kitchen.,Ọ na-ehicha ụlọ nri.
+food,The pot is on the stove.,Ite ahụ dị n'elu stovu.
+food,The water is boiling.,Mmiri ahụ na-esi.
+food,The food is boiling.,Nri ahụ na-esi.
+food,Turn off the stove.,Gbanyụọ stovu ahụ.
+food,Turn on the stove.,Gbanye stovu ahụ.
+food,Use a knife to cut the food.,Jiri mma gbutuo nri ahụ.
+food,Use a spoon to eat the soup.,Jiri ngaji rie ofe ahụ.
+food,Use a fork to eat the food.,Jiri ndụdụ rie nri ahụ.
+food,The spoon is on the table.,Ngaji ahụ dị n'elu tebụl.
+food,The knife is sharp.,Mma ahụ dị nkọ.
+food,The cup is full of water.,Iko ahụ juputara na mmiri.
+food,The bottle is empty.,Karama ahụ tọgbọ chakoo.
+food,Fill the bottle with water.,Jupụta karama ahụ na mmiri.
+food,The food is too salty.,Nri ahụ nwere nnu gabiga ókè.
+food,The food is too spicy.,Nri ahụ nwere ose gabiga ókè.
+food,The food is not sweet enough.,Nri ahụ adịghị atọ ụtọ nke ọma.
+food,The food smells good.,Nri ahụ na-esi ísì ọma.
+food,The food smells bad.,Nri ahụ na-esi ísì ọjọọ.
+food,Do you want more food?,Ị chọrọ nri ọzọ?
+food,Would you like some water?,Ị chọrọ mmiri?
+food,Can I have some rice?,Enwere m ike ịnweta osikapa?
+food,Can I have some soup?,Enwere m ike ịnweta ofe?
+food,Please wait for the food.,Biko chere nri ahụ.
+food,The meal is finished.,Nri ahụ agwụla.
+food,There is no more food.,Ọ dịghị nri ọzọ.
+food,We have enough food.,Anyị nwere nri zuru ezu.
+food,The family prepared food for the visitors.,Ezinụlọ ahụ kwadebere nri maka ndị ọbịa.
+food,The visitors ate the food.,Ndị ọbịa ahụ riri nri ahụ.
+food,Everyone enjoyed the meal.,Onye ọ bụla nwere mmasị na nri ahụ.
+food,The children are eating fruit.,Ụmụaka ahụ na-eri mkpụrụ osisi.
+food,The children are drinking water.,Ụmụaka ahụ na-aṅụ mmiri.
+food,The mother prepared food for the children.,Nne ahụ kwadebere ụmụaka nri.
+food,The father bought food for the family.,Nna ahụ zụtara ezinụlọ nri.
+food,We cook food every day.,Anyị na-esi nri kwa ụbọchị.
+food,She cooks very well.,Ọ na-esi nri nke ọma.
+food,He knows how to cook.,Ọ maara esi nri.
+food,I am learning how to cook.,Ana m amụta esi nri.
+food,The food was prepared carefully.,A kwadebere nri ahụ nke ọma.
+food,The food was served to the guests.,E nyere ndị ọbịa nri ahụ.
+food,The guests sat down to eat.,Ndị ọbịa ahụ nọdụrụ ala iri nri.
+food,We shared the food.,Anyị kesara nri ahụ.
+food,Do not waste the food.,Ekwela ka nri ahụ laa n'iyi.
+food,Save some food for later.,Chekwaa ụfọdụ nri maka emechaa.
+food,The food will be ready soon.,Nri ahụ ga-adị njikere n'oge na-adịghị anya.
+food,We will cook dinner tonight.,Anyị ga-esi nri abalị taa.
+food,She bought ingredients for the meal.,Ọ zụtara ihe ndị a ga-eji esi nri.
+food,The ingredients are on the table.,Ihe ndị a ga-eji esi nri dị n'elu tebụl.
+food,We need onions and tomatoes.,Anyị chọrọ yabasị na tomato.
+food,The recipe is easy.,Usoro esi nri ahụ dị mfe.
+food,Follow the recipe carefully.,Soro usoro esi nri ahụ nke ọma.
+food,The cook prepared the meal.,Onye na-esi nri kwadebere nri ahụ.
+food,The restaurant serves good food.,Ụlọ oriri na-enye ezigbo nri.
+food,We ate at a restaurant.,Anyị riri nri n'ụlọ oriri.
+food,The restaurant is busy.,Ụlọ oriri ahụ jupụtara n'ọrụ.
+food,The waiter brought the food.,Onye na-eje ozi wetara nri ahụ.
+food,The bill is on the table.,Akwụkwọ ụgwọ ahụ dị n'elu tebụl.
+food,We paid for the food.,Anyị kwụrụ ụgwọ nri ahụ.
+general,I am very well.,Adị m ezigbo mma.
+general,Thank you very much.,Daalụ nke ukwuu.
+general,Please come in.,Biko bata.
+general,Please sit down.,Biko nọdụ ala.
+general,Please wait.,Biko chere.
+general,Please listen to me.,Biko gee m ntị.
+general,What is your surname?,Gịnị bụ aha nna gị?
+general,Where are you from?,Ebee ka i si?
+general,I am from Nigeria.,Esi m Naịjirịa.
+general,I live in Enugu.,Ana m ebi na Enugu.
+general,Where do you live?,Ebee ka ị na-ebi?
+general,She is my sister.,Ọ bụ nwanne m nwanyị.
+general,He is my brother.,Ọ bụ nwanne m nwoke.
+general,This is my family.,Nke a bụ ezinụlọ m.
+general,I am going to the market.,Ana m aga ahịa.
+general,I am coming back.,Ana m alọghachi.
+general,I am coming tomorrow.,Ana m abịa echi.
+general,I will see you tomorrow.,Aga m ahụ gị echi.
+general,See you later.,Ka anyị hụ ma emechaa.
+general,I understand Igbo.,Aghọtara m Igbo.
+general,Please repeat that.,Biko kwughachi nke ahụ.
+general,What did you say?,Gịnị ka ị kwuru?
+general,Please explain it to me.,Biko kọwaara m ya.
+general,I know.,Ama m.
+general,I do not know.,Amaghị m.
+general,I remember.,Echetara m.
+general,I forgot.,Echefuru m.
+general,That is correct.,Nke ahụ bụ eziokwu.
+general,That is not correct.,Nke ahụ abụghị eziokwu.
+general,Yes.,Ee.
+general,No.,Mba.
+general,Maybe.,Ikekwe.
+general,Of course.,N'ezie.
+general,Really?,N'ezie?
+general,What happened?,Gịnị mere?
+general,Nothing happened.,Ọ dịghị ihe mere.
+general,Are you ready?,Ị dị njikere?
+general,I am ready.,Adị m njikere.
+general,Wait for me.,Chere m.
+general,Follow me.,Soro m.
+general,Come with me.,Soro m bịa.
+general,Go ahead.,Gaa n'ihu.
+general,Be careful.,Kpachara anya.
+general,Do not worry.,Echegbula onwe gị.
+general,I am sorry.,Ọ dị m nwute.
+general,Excuse me.,Biko.
+general,It is okay.,Ọ dị mma.
+general,Everything is fine.,Ihe niile dị mma.
+general,I am happy.,Obi dị m ụtọ.
+general,I am free now.,Enwere m ohere ugbu a.
+general,What time is it?,Kedu oge ọ bụ?
+general,It is morning.,Ọ bụ ụtụtụ.
+general,It is afternoon.,Ọ bụ ehihie.
+general,It is evening.,Ọ bụ mgbede.
+general,Today is a good day.,Taa bụ ụbọchị ọma.
+general,Tomorrow is another day.,Echi bụ ụbọchị ọzọ.
+general,Today is Monday.,Taa bụ Mọnde.
+general,Today is Tuesday.,Taa bụ Tuzdee.
+general,Today is Wednesday.,Taa bụ Wenezdee.
+general,Today is Thursday.,Taa bụ Tọọzdee.
+general,Today is Friday.,Taa bụ Fraịdee.
+general,Today is Saturday.,Taa bụ Satọdee.
+general,Today is Sunday.,Taa bụ Sọnde.
+general,I like this.,Ọ masịrị m nke a.
+general,I do not like this.,Ọ masịghị m nke a.
+general,I need help.,Achọrọ m enyemaka.
+general,Can you help me?,Ị nwere ike inyere m aka?
+general,I can help you.,Enwere m ike inyere gị aka.
+general,Let us go.,Ka anyị gaa.
+general,Let us start.,Ka anyị bido.
+general,Let us continue.,Ka anyị gaa n'ihu.
+general,What do you need?,Gịnị ka ị chọrọ?
+general,I need water.,Achọrọ m mmiri.
+general,I need food.,Achọrọ m nri.
+general,I need money.,Achọrọ m ego.
+general,Where is the bathroom?,Ebee ka ụlọ mposi dị?
+general,Where is the road?,Ebee ka ụzọ dị?
+general,Where is the market?,Ebee ka ahịa dị?
+general,Where is the school?,Ebee ka ụlọ akwụkwọ dị?
+general,The place is near.,Ebe ahụ dị nso.
+general,The place is far.,Ebe ahụ dị anya.
+general,Come here.,Bịa ebe a.
+general,Go there.,Gaa ebe ahụ.
+general,Look at this.,Lee nke a.
+general,Look at that.,Lee nke ahụ.
+general,Open the door.,Mepee ụzọ.
+general,Close the door.,Mechie ụzọ.
+general,Turn on the light.,Gbanye ọkụ.
+general,Turn off the light.,Gbanyụọ ọkụ.
+general,Give me the book.,Nye m akwụkwọ ahụ.
+general,Take this.,Were nke a.
+general,Bring the water.,Weta mmiri ahụ.
+general,Put it here.,Tinye ya ebe a.
+general,Do not touch it.,Emetụla ya aka.
+general,Do not go there.,Agala ebe ahụ.
+general,Do not forget.,Echefukwala.
+general,Remember this.,Cheta nke a.
+general,What do you think?,Gịnị ka ị na-eche?
+general,I think it is good.,Echere m na ọ dị mma.
+general,I agree with you.,Ekwenyere m na gị.
+general,I do not agree.,Ekwetaghị m.
+general,That is a good idea.,Nke ahụ bụ ezigbo echiche.
+general,That is a bad idea.,Nke ahụ bụ echiche ọjọọ.
+general,It is important.,Ọ dị mkpa.
+general,It is not important.,Ọ dịghị mkpa.
+general,Everything is ready.,Ihe niile adịla njikere.
+general,The work is finished.,Ọrụ ahụ agwụla.
+general,I will come back.,Aga m alọghachi.
+general,I will call you.,Aga m akpọ gị.
+general,Call me later.,Kpọọ m ma emechaa.
+general,I received your message.,Enwetara m ozi gị.
+general,What is the problem?,Gịnị bụ nsogbu ahụ?
+general,There is no problem.,Nsogbu adịghị.
+general,The problem is serious.,Nsogbu ahụ dị njọ.
+general,We need a solution.,Anyị chọrọ ihe ngwọta.
+general,Everything will be fine.,Ihe niile ga-adị mma.
+health,I am feeling well.,Ahụ dị m mma.
+health,I am not feeling well.,Ahụ adịghị m mma.
+health,I am sick.,A na-arịa m ọrịa.
+health,I feel tired.,Ike gwụrụ m.
+health,I feel weak.,Adịghị m ike.
+health,I have a headache.,Isi na-afụ m.
+health,I have a stomach ache.,Afọ na-afụ m.
+health,I have a toothache.,Eze na-afụ m.
+health,I have a sore throat.,Akpịrị na-afụ m.
+health,I have a cough.,Ụkwara na-agụ m.
+health,I have a cold.,Oyi na-arịa m.
+health,I have a fever.,Ahụ ọkụ na-agba m.
+health,I have a headache today.,Isi na-afụ m taa.
+health,My body is hot.,Ahụ m dị ọkụ.
+health,My body is cold.,Ahụ m dị jụụ.
+health,I feel dizzy.,Isi na-atụgharị m.
+health,I feel better now.,Ahụ adịla m mma ugbu a.
+health,I feel worse today.,Ahụ na-adị m njọ taa.
+health,She is feeling sick.,Ahụ adịghị ya mma.
+health,He is feeling tired.,Ike gwụrụ ya.
+health,The child is sick.,Nwa ahụ na-arịa ọrịa.
+health,The baby has a fever.,Nwa ọhụrụ ahụ nwere ahụ ọkụ.
+health,The patient is resting.,Onye ọrịa ahụ na-ezu ike.
+health,The patient needs help.,Onye ọrịa ahụ chọrọ enyemaka.
+health,The patient is getting better.,Ahụ onye ọrịa ahụ na-adị mma.
+health,The patient is very weak.,Onye ọrịa ahụ adịghị ike nke ukwuu.
+health,Call a doctor.,Kpọọ dọkịta.
+health,We need to see a doctor.,Anyị kwesịrị ịhụ dọkịta.
+health,I went to the hospital.,Agara m ụlọ ọgwụ.
+health,She went to the hospital yesterday.,Ọ gara ụlọ ọgwụ ụnyaahụ.
+health,He is at the hospital.,Ọ nọ n'ụlọ ọgwụ.
+health,The doctor is examining the patient.,Dọkịta na-enyocha onye ọrịa ahụ.
+health,The doctor asked me some questions.,Dọkịta jụrụ m ajụjụ ụfọdụ.
+health,The nurse helped the patient.,Nọọsụ nyere onye ọrịa ahụ aka.
+health,The doctor gave me medicine.,Dọkịta nyere m ọgwụ.
+health,I need to take my medicine.,Ọ dị m mkpa ịṅụ ọgwụ m.
+health,Take this medicine twice a day.,Ṅụọ ọgwụ a ugboro abụọ kwa ụbọchị.
+health,Take the medicine after eating.,Ṅụọ ọgwụ ahụ mgbe i richara nri.
+health,Do not forget your medicine.,Echefula ọgwụ gị.
+health,The medicine is working.,Ọgwụ ahụ na-arụ ọrụ.
+health,The medicine helped me.,Ọgwụ ahụ nyeere m aka.
+health,The medicine is finished.,Ọgwụ ahụ agwụla.
+health,I bought medicine from the pharmacy.,Azụtara m ọgwụ n'ụlọ ahịa ọgwụ.
+health,The pharmacy is open.,Ụlọ ahịa ọgwụ ahụ mepere emepe.
+health,The pharmacy is closed.,Ụlọ ahịa ọgwụ ahụ emechiela.
+health,The doctor wrote a prescription.,Dọkịta dere akwụkwọ ndenye ọgwụ.
+health,The nurse checked my temperature.,Nọọsụ tụrụ okpomọkụ ahụ m.
+health,The doctor checked my blood pressure.,Dọkịta tụrụ ọbara mgbali m.
+health,The doctor examined my eyes.,Dọkịta nyochara anya m.
+health,The doctor examined my ear.,Dọkịta nyochara ntị m.
+health,The doctor examined my stomach.,Dọkịta nyochara afọ m.
+health,I need a medical examination.,Ọ dị m mkpa ịga nyocha ahụike.
+health,The test result is ready.,Nsonaazụ ule ahụ adịla njikere.
+health,The blood test was normal.,Nnwale ọbara ahụ dị mma.
+health,The doctor took a blood sample.,Dọkịta were ihe nlele ọbara.
+health,I need to rest.,Ọ dị m mkpa izu ike.
+health,You should sleep more.,Ị kwesịrị ịrahụ ụra karịa.
+health,Drink plenty of water.,Ṅụọ mmiri nke ukwuu.
+health,Drink clean water.,Ṅụọ mmiri dị ọcha.
+health,Eat healthy food.,Rie nri dị mma.
+health,Eat more fruits and vegetables.,Rie ọtụtụ mkpụrụ osisi na akwụkwọ nri.
+health,Wash your hands before eating.,Saa aka gị tupu ị rie nri.
+health,Wash your hands regularly.,Na-asa aka gị mgbe niile.
+health,Keep your body clean.,Debe ahụ gị ọcha.
+health,Exercise every day.,Na-emega ahụ kwa ụbọchị.
+health,Walking is good for your health.,Ije dị mma maka ahụike gị.
+health,Regular exercise keeps the body healthy.,Mmega ahụ mgbe niile na-eme ka ahụ dị mma.
+health,Healthy food gives the body strength.,Nri dị mma na-enye ahụ ike.
+health,Too much sugar is not healthy.,Ọtụtụ shuga adịghị mma maka ahụike.
+health,Too much salt is not healthy.,Ọtụtụ nnu adịghị mma maka ahụike.
+health,Smoking is harmful to health.,Ịṅụ sịga na-emerụ ahụike.
+health,Do not smoke.,Aṅụla sịga.
+health,Do not drink dirty water.,Aṅụla mmiri ruru unyi.
+health,The wound is healing.,Ọnya ahụ na-agwọ.
+health,The wound is painful.,Ọnya ahụ na-afụ ụfụ.
+health,He has a wound on his hand.,O nwere ọnya n'aka ya.
+health,She hurt her leg.,Ọ merụrụ ụkwụ ya.
+health,I hurt my arm.,Emerụrụ m aka m.
+health,Be careful not to hurt yourself.,Kpachara anya ka ị ghara imerụ onwe gị ahụ.
+health,The injury is serious.,Mmerụ ahụ dị njọ.
+health,The injury is not serious.,Mmerụ ahụ adịghị njọ.
+health,He broke his leg.,Ọ gbajiri ụkwụ ya.
+health,She fell and hurt herself.,Ọ dara wee merụọ onwe ya ahụ.
+health,The child fell down.,Nwa ahụ dara.
+health,The pain is gone.,Ihe mgbu ahụ akwụsịla.
+health,The pain is getting worse.,Ihe mgbu ahụ na-akawanye njọ.
+health,The pain is getting better.,Ihe mgbu ahụ na-akawanye mma.
+health,Where does it hurt?,Ebee ka ọ na-afụ?
+health,When did the pain start?,Olee mgbe ihe mgbu ahụ malitere?
+health,How long have you been sick?,Ogologo oge ole ka ị na-arịa ọrịa?
+health,Are you feeling better?,Ahụ adịla gị mma?
+health,Do you have a fever?,Ị nwere ahụ ọkụ?
+health,Do you have any pain?,Ị nwere ihe mgbu?
+health,Are you taking any medicine?,Ị na-aṅụ ọgwụ ọ bụla?
+health,The child needs medical attention.,Nwa ahụ chọrọ nlekọta ahụike.
+health,The baby is sleeping.,Nwa ọhụrụ ahụ na-arahụ ụra.
+health,The baby is crying.,Nwa ọhụrụ ahụ na-ebe akwa.
+health,The mother is taking care of the baby.,Nne ahụ na-elekọta nwa ọhụrụ ahụ.
+health,The elderly man needs help.,Agadi nwoke ahụ chọrọ enyemaka.
+health,The elderly woman is resting.,Agadi nwanyị ahụ na-ezu ike.
+health,The ambulance arrived quickly.,Ụgbọ ala mberede ahụ rutere ngwa ngwa.
+health,The hospital is far from here.,Ụlọ ọgwụ ahụ dị anya site ebe a.
+health,The hospital is near my house.,Ụlọ ọgwụ ahụ dị nso n'ụlọ m.
+health,The health centre is open today.,Ụlọ ahụike ahụ mepere taa.
+health,We should protect our health.,Anyị kwesịrị ichekwa ahụike anyị.
+health,Good health is important.,Ezi ahụike dị mkpa.
+health,Prevention is better than treatment.,Mgbochi dị mma karịa ọgwụgwọ.
+health,The doctor advised me to rest.,Dọkịta dụrụ m ọdụ ka m zuru ike.
+health,The doctor advised him to drink more water.,Dọkịta dụrụ ya ọdụ ka ọ ṅụọ mmiri karịa.
+health,The nurse gave the patient water.,Nọọsụ nyere onye ọrịa ahụ mmiri.
+health,The patient drank the medicine.,Onye ọrịa ahụ ṅụrụ ọgwụ ahụ.
+health,The patient recovered from the illness.,Onye ọrịa ahụ gbakere n'ọrịa ahụ.
+health,She recovered quickly.,Ọ gbakere ngwa ngwa.
+health,He is still sick.,Ọ ka na-arịa ọrịa.
+health,The illness spread quickly.,Ọrịa ahụ gbasara ngwa ngwa.
+health,We must keep the environment clean.,Anyị ga-edebe gburugburu ebe obibi ọcha.
+health,Clean surroundings help prevent disease.,Gbasara ebe dị ọcha na-enyere aka igbochi ọrịa.
+health,Get enough sleep every night.,Na-arahụ ụra nke ọma kwa abalị.
+health,Take care of your health.,Lekọta ahụike gị.
+technology,I use a computer.,Ana m eji kọmputa arụ ọrụ.
+technology,I am using a computer.,Ana m eji kọmputa arụ ọrụ ugbu a.
+technology,The computer is working.,Kọmputa ahụ na-arụ ọrụ.
+technology,The computer is not working.,Kọmputa ahụ anaghị arụ ọrụ.
+technology,The computer is fast.,Kọmputa ahụ dị ngwa.
+technology,The computer is slow.,Kọmputa ahụ na-eji nwayọ arụ ọrụ.
+technology,The computer is old.,Kọmputa ahụ bụ nke ochie.
+technology,Turn on the computer.,Gbanye kọmputa ahụ.
+technology,Turn off the computer.,Gbanyụọ kọmputa ahụ.
+technology,Restart the computer.,Malitegharịa kọmputa ahụ.
+technology,The computer needs an update.,Kọmputa ahụ chọrọ mmelite.
+technology,The screen is bright.,Ihuenyo ahụ na-enwu nke ọma.
+technology,The screen is dark.,Ihuenyo ahụ gbara ọchịchịrị.
+technology,The screen is broken.,Ihuenyo ahụ agbajiela.
+technology,The keyboard is on the table.,Ahụigodo ahụ dị n'elu tebụl.
+technology,The mouse is next to the keyboard.,Òké ahụ dị n'akụkụ ahụigodo ahụ.
+technology,I am typing a message.,Ana m ede ozi.
+technology,He is typing on the keyboard.,Ọ na-eji ahụigodo ede ihe.
+technology,She is using the mouse.,Ọ na-eji òké arụ ọrụ.
+technology,Click the button.,Pịa bọtịnụ ahụ.
+technology,Click the link.,Pịa njikọ ahụ.
+technology,Open the file.,Mepee faịlụ ahụ.
+technology,Close the file.,Mechie faịlụ ahụ.
+technology,Save the file.,Chekwaa faịlụ ahụ.
+technology,Delete the file.,Hichapụ faịlụ ahụ.
+technology,The file is saved.,A chekwala faịlụ ahụ.
+technology,The file is missing.,Faịlụ ahụ efuola.
+technology,I created a new file.,Emepụtara m faịlụ ọhụrụ.
+technology,The document is ready.,Akwụkwọ ahụ adịla njikere.
+technology,Print the document.,Bipụta akwụkwọ ahụ.
+technology,The printer is working.,Igwe nbipụta ahụ na-arụ ọrụ.
+technology,The printer is not working.,Igwe nbipụta ahụ anaghị arụ ọrụ.
+technology,The printer has no paper.,Igwe nbipụta ahụ enweghị akwụkwọ.
+technology,I have a mobile phone.,Enwere m ekwentị mkpanaaka.
+technology,My phone is ringing.,Ekwentị m na-ada.
+technology,My phone is charging.,Ekwentị m na-akwụ ụgwọ.
+technology,My phone battery is low.,Batrị ekwentị m adịghịzi ike.
+technology,The battery is full.,Batrị ahụ juru.
+technology,The battery is empty.,Batrị ahụ agwụla.
+technology,Charge the phone.,Kwụnye ekwentị ahụ ka ọ na-akwụ ụgwọ.
+technology,The phone is turned off.,E mechiela ekwentị ahụ.
+technology,The phone is broken.,Ekwentị ahụ agbajiela.
+technology,I received a message.,Enwetara m ozi.
+technology,Send me a message.,Zitere m ozi.
+technology,He sent an email.,Ọ zitere ozi-e.
+technology,Check your email.,Lelee ozi-e gị.
+technology,I received an email.,Enwetara m ozi-e.
+technology,The email is important.,Ozi-e ahụ dị mkpa.
+technology,The internet is fast.,Ịntanetị dị ngwa.
+technology,The internet is slow.,Ịntanetị na-eji nwayọ arụ ọrụ.
+technology,The internet is not working.,Ịntanetị anaghị arụ ọrụ.
+technology,I am connected to the internet.,Ejikọrọ m na ịntanetị.
+technology,The connection is weak.,Njikọ ahụ adịghị ike.
+technology,The connection is strong.,Njikọ ahụ siri ike.
+technology,Connect to the internet.,Jikọọ na ịntanetị.
+technology,The network is available.,Netwọk ahụ dị.
+technology,The network is not available.,Netwọk ahụ adịghị.
+technology,The website is open.,Weebụsaịtị ahụ mepere emepe.
+technology,Open the website.,Mepee weebụsaịtị ahụ.
+technology,The website is loading.,Weebụsaịtị ahụ na-ebu.
+technology,The website is not working.,Weebụsaịtị ahụ anaghị arụ ọrụ.
+technology,I searched for information online.,Achọrọ m ozi n'ịntanetị.
+technology,Search for the information.,Chọọ ozi ahụ.
+technology,Download the file.,Budata faịlụ ahụ.
+technology,Upload the document.,Bulite akwụkwọ ahụ.
+technology,The download is complete.,Nbudata ahụ agwụla.
+technology,The file is uploading.,A na-ebulite faịlụ ahụ.
+technology,I opened the application.,Emepụtara m ngwa ahụ.
+technology,Close the application.,Mechie ngwa ahụ.
+technology,The application is useful.,Ngwa ahụ bara uru.
+technology,The application is free.,Ngwa ahụ bụ n'efu.
+technology,The application needs an update.,Ngwa ahụ chọrọ mmelite.
+technology,Install the application.,Wụnye ngwa ahụ.
+technology,Uninstall the application.,Wepụ ngwa ahụ.
+technology,The software is easy to use.,Sọftụwia ahụ dị mfe iji.
+technology,The software is difficult to use.,Sọftụwia ahụ siri ike iji.
+technology,The software has an error.,Sọftụwia ahụ nwere njehie.
+technology,Fix the error.,Dozie njehie ahụ.
+technology,The system is working.,Sistemụ ahụ na-arụ ọrụ.
+technology,The system is not working.,Sistemụ ahụ anaghị arụ ọrụ.
+technology,The system is secure.,Sistemụ ahụ nwere nchekwa.
+technology,The password is correct.,Paswọọdụ ahụ ziri ezi.
+technology,The password is incorrect.,Paswọọdụ ahụ ezighi ezi.
+technology,Enter your password.,Tinye paswọọdụ gị.
+technology,Change your password.,Gbanwee paswọọdụ gị.
+technology,Keep your password secret.,Debe paswọọdụ gị na nzuzo.
+technology,The account is locked.,A kpọchiela akaụntụ ahụ.
+technology,Create an account.,Mepụta akaụntụ.
+technology,Log in to your account.,Banye na akaụntụ gị.
+technology,Log out of your account.,Pụọ na akaụntụ gị.
+technology,The user is online.,Onye ọrụ ahụ nọ n'ịntanetị.
+technology,The user is offline.,Onye ọrụ ahụ anọghị n'ịntanetị.
+technology,The data is important.,Data ahụ dị mkpa.
+technology,Save your data.,Chekwaa data gị.
+technology,The data is secure.,Data ahụ nwere nchekwa.
+technology,The database is connected.,Ejikọrọ nchekwa data ahụ.
+technology,The database stores information.,Ebe nchekwa data na-echekwa ozi.
+technology,The server is running.,Sava ahụ na-arụ ọrụ.
+technology,The server is down.,Sava ahụ akwụsịla ịrụ ọrụ.
+technology,The website is hosted on a server.,A na-akwado weebụsaịtị ahụ na sava.
+technology,The program is running.,Mmemme ahụ na-arụ ọrụ.
+technology,The program has an error.,Mmemme ahụ nwere njehie.
+technology,Write a computer program.,Dee mmemme kọmputa.
+technology,The developer is writing code.,Onye nrụpụta sọftụwia na-ede koodu.
+technology,The code is correct.,Koodu ahụ ziri ezi.
+technology,The code has an error.,Koodu ahụ nwere njehie.
+technology,Test the program.,Nwalee mmemme ahụ.
+technology,The program passed the test.,Mmemme ahụ gafere ule ahụ.
+technology,Technology is changing quickly.,Teknụzụ na-agbanwe ngwa ngwa.
+technology,Technology is useful in education.,Teknụzụ bara uru na agụmakwụkwọ.
+technology,Technology helps people communicate.,Teknụzụ na-enyere ndị mmadụ aka ikwurịta okwu.
+technology,The internet helps students learn.,Ịntanetị na-enyere ụmụ akwụkwọ aka ịmụ ihe.
+technology,We use technology every day.,Anyị na-eji teknụzụ kwa ụbọchị.
+technology,The phone has a camera.,Ekwentị ahụ nwere igwefoto.
+technology,Take a picture with the camera.,Were igwefoto see foto.
+technology,The camera is clear.,Igwefoto ahụ doro anya.
+technology,The video is playing.,Vidiyo ahụ na-egwu.
+technology,Stop the video.,Kwụsị vidiyo ahụ.
+technology,The audio is clear.,Ụda ahụ doro anya.
+technology,The microphone is working.,Igwe okwu ahụ na-arụ ọrụ.
+technology,The speaker is loud.,Igwe okwu ahụ na-ada ụda nke ukwuu.
+technology,Connect the device.,Jikọọ ngwaọrụ ahụ.
+technology,The device is connected.,Ejikọrọ ngwaọrụ ahụ.
+technology,The device is disconnected.,Ewepụla njikọ ngwaọrụ ahụ.
+technology,The machine uses electricity.,Igwe ahụ na-eji ọkụ eletrik.
+technology,The electricity is off.,Ọkụ eletrik adịghị.
+technology,The electricity is on.,Ọkụ eletrik dị.
+technology,Protect your computer from viruses.,Chebe kọmputa gị pụọ na nje kọmputa.
+technology,The computer has a virus.,Kọmputa ahụ nwere nje kọmputa.
+technology,Scan the computer.,Nyochaa kọmputa ahụ.
+technology,The system needs security.,Sistemụ ahụ chọrọ nchekwa.
+transportation,How are you going there?,Kedu ka ị ga-esi gaa ebe ahụ?
+transportation,I am going by car.,Ana m eji ụgbọala aga.
+transportation,I am going by bus.,Ana m eji ụgbọ ala ọha aga.
+transportation,I am going by taxi.,Ana m eji tagzi aga.
+transportation,We are going by bus.,Anyị na-eji ụgbọ ala ọha aga.
+transportation,He is driving a car.,Ọ na-anya ụgbọala.
+transportation,She is driving to work.,Ọ na-anya ụgbọala aga ọrụ.
+transportation,The driver is driving carefully.,Onye ọkwọ ụgbọala ahụ na-anya ụgbọala nke ọma.
+transportation,The driver stopped the car.,Onye ọkwọ ụgbọala ahụ kwụsịrị ụgbọala ahụ.
+transportation,The car is moving.,Ụgbọala ahụ na-aga.
+transportation,The car stopped.,Ụgbọala ahụ kwụsịrị.
+transportation,The car is fast.,Ụgbọala ahụ na-agba ọsọ.
+transportation,The car is slow.,Ụgbọala ahụ na-eji nwayọ aga.
+transportation,The car is new.,Ụgbọala ahụ bụ nke ọhụrụ.
+transportation,The car is old.,Ụgbọala ahụ bụ nke ochie.
+transportation,The car is clean.,Ụgbọala ahụ dị ọcha.
+transportation,The car is dirty.,Ụgbọala ahụ ruru unyi.
+transportation,The bus is full.,Ụgbọ ala ọha ahụ jupụtara.
+transportation,The bus is empty.,Ụgbọ ala ọha ahụ tọgbọ chakoo.
+transportation,The bus arrived early.,Ụgbọ ala ọha ahụ rutere n'oge.
+transportation,The bus arrived late.,Ụgbọ ala ọha ahụ rutere n'oge.
+transportation,The bus is waiting outside.,Ụgbọ ala ọha ahụ na-eche n'èzí.
+transportation,The taxi is waiting for us.,Tagzi ahụ na-eche anyị.
+transportation,Call a taxi.,Kpọọ tagzi.
+transportation,The taxi driver is friendly.,Onye ọkwọ tagzi ahụ nwere omume ọma.
+transportation,We are waiting for the bus.,Anyị na-eche ụgbọ ala ọha.
+transportation,I missed the bus.,Agbaghara m ụgbọ ala ọha.
+transportation,The bus left before I arrived.,Ụgbọ ala ọha ahụ pụrụ tupu m erute.
+transportation,The train is arriving.,Ụgbọ oloko ahụ na-abịa.
+transportation,The train has arrived.,Ụgbọ oloko ahụ erutela.
+transportation,The train left the station.,Ụgbọ oloko ahụ hapụrụ ọdụ ụgbọ oloko.
+transportation,I am waiting at the station.,Ana m eche n'ọdụ ụgbọ oloko.
+transportation,The station is crowded.,Ọdụ ụgbọ oloko ahụ jupụtara na ndị mmadụ.
+transportation,The train is crowded.,Ụgbọ oloko ahụ jupụtara na ndị mmadụ.
+transportation,The train is fast.,Ụgbọ oloko ahụ na-agba ọsọ.
+transportation,The train is slow.,Ụgbọ oloko ahụ na-eji nwayọ aga.
+transportation,We travelled by train.,Anyị jiri ụgbọ oloko mee njem.
+transportation,The airplane is in the sky.,Ụgbọ elu ahụ dị na mbara igwe.
+transportation,The airplane is taking off.,Ụgbọ elu ahụ na-efego.
+transportation,The airplane has landed.,Ụgbọ elu ahụ agbadataala.
+transportation,The airport is far from here.,Ọdụ ụgbọ elu ahụ dị anya site ebe a.
+transportation,I am going to the airport.,Ana m aga ọdụ ụgbọ elu.
+transportation,We arrived at the airport.,Anyị rutere n'ọdụ ụgbọ elu.
+transportation,The flight was delayed.,Egburu oge ụgbọ elu ahụ.
+transportation,The flight is on time.,Ụgbọ elu ahụ na-abịa n'oge.
+transportation,The passenger is waiting.,Onye njem ahụ na-eche.
+transportation,The passengers entered the bus.,Ndị njem ahụ banyere n'ụgbọ ala ọha.
+transportation,The passengers left the bus.,Ndị njem ahụ si n'ụgbọ ala ọha pụta.
+transportation,The road is busy.,Ụzọ ahụ jupụtara n'ụgbọala.
+transportation,The road is empty.,Ụzọ ahụ tọgbọ chakoo.
+transportation,The road is wide.,Ụzọ ahụ sara mbara.
+transportation,The road is narrow.,Ụzọ ahụ dị warara.
+transportation,The road is long.,Ụzọ ahụ dị ogologo.
+transportation,The road is short.,Ụzọ ahụ dị mkpụmkpụ.
+transportation,The road is dangerous.,Ụzọ ahụ dị ize ndụ.
+transportation,The road is safe.,Ụzọ ahụ dị nchebe.
+transportation,The road is damaged.,Ụzọ ahụ emebiwo.
+transportation,The road is under construction.,A na-arụzi ụzọ ahụ.
+transportation,There is traffic on the road.,Okporo ụzọ jupụtara n'ụgbọala.
+transportation,The traffic is heavy.,Ụgbọala juru n'okporo ụzọ.
+transportation,The traffic is moving slowly.,Ụgbọala na-eji nwayọ aga n'okporo ụzọ.
+transportation,We are stuck in traffic.,Ụgbọala jidere anyị n'okporo ụzọ.
+transportation,The traffic light is red.,Ìhè okporo ụzọ ahụ na-acha ọbara ọbara.
+transportation,The traffic light is green.,Ìhè okporo ụzọ ahụ na-acha akwụkwọ ndụ.
+transportation,The traffic light is yellow.,Ìhè okporo ụzọ ahụ na-acha odo.
+transportation,Stop at the traffic light.,Kwụsị n'ebe ìhè okporo ụzọ dị.
+transportation,Turn left.,Tụgharịa aka ekpe.
+transportation,Turn right.,Tụgharịa aka nri.
+transportation,Go straight ahead.,Gaa n'ihu kwụ ọtọ.
+transportation,The road is on the left.,Ụzọ ahụ dị n'aka ekpe.
+transportation,The road is on the right.,Ụzọ ahụ dị n'aka nri.
+transportation,Where is the bus stop?,Ebee ka ebe ụgbọ ala ọha na-akwụsị dị?
+transportation,The bus stop is near the market.,Ebe ụgbọ ala ọha na-akwụsị dị nso n'ahịa.
+transportation,We reached our destination.,Anyị rutere ebe anyị na-aga.
+transportation,The journey was long.,Njem ahụ dị ogologo.
+transportation,The journey was short.,Njem ahụ dị mkpụmkpụ.
+transportation,The journey was difficult.,Njem ahụ siri ike.
+transportation,The journey was easy.,Njem ahụ dị mfe.
+transportation,We started the journey early.,Anyị malitere njem ahụ n'oge.
+transportation,We arrived late.,Anyị rutere n'oge.
+transportation,We arrived safely.,Anyị rutere n'udo.
+transportation,Drive slowly.,Jiri nwayọ na-anya ụgbọala.
+transportation,Drive carefully.,Jiri nlezianya na-anya ụgbọala.
+transportation,Do not drive too fast.,Ananyela ụgbọala ọsọ gabiga ókè.
+transportation,Fast driving is dangerous.,Ịnya ụgbọala ọsọ dị ize ndụ.
+transportation,Wear your seat belt.,Kechie eriri nchekwa gị.
+transportation,The seat belt is important.,Eriri nchekwa dị mkpa.
+transportation,The car needs fuel.,Ụgbọala ahụ chọrọ mmanụ ụgbọala.
+transportation,The car has no fuel.,Ụgbọala ahụ enweghị mmanụ ụgbọala.
+transportation,We stopped at a petrol station.,Anyị kwụsịrị n'ọdụ mmanụ ụgbọala.
+transportation,The car needs repairs.,Ụgbọala ahụ chọrọ nrụzi.
+transportation,The mechanic repaired the car.,Onye na-arụzi ụgbọala rụziri ụgbọala ahụ.
+transportation,The car broke down.,Ụgbọala ahụ mebiri.
+transportation,The tire is flat.,Taya ahụ agbawala.
+transportation,The engine is not working.,Igwe ụgbọala ahụ anaghị arụ ọrụ.
+transportation,The motorcycle is fast.,Ọgba tum tum ahụ na-agba ọsọ.
+transportation,He rides a motorcycle.,Ọ na-agba ọgba tum tum.
+transportation,She rides a bicycle.,Ọ na-agba igwe.
+transportation,I ride my bicycle to school.,Ana m eji igwe aga ụlọ akwụkwọ.
+transportation,The bicycle is new.,Igwe ahụ bụ nke ọhụrụ.
+transportation,The motorcycle is parked outside.,Ọgba tum tum ahụ dọwara n'èzí.
+transportation,The truck is carrying goods.,Ụgbọala ibu ahụ na-ebu ngwongwo.
+transportation,The truck is heavy.,Ụgbọala ibu ahụ dị arọ.
+transportation,The driver carried the goods to the market.,Onye ọkwọ ụgbọala buru ngwongwo ahụ gaa ahịa.
+transportation,The goods arrived safely.,Ngwongwo ahụ rutere n'udo.
+transportation,We need a bigger vehicle.,Anyị chọrọ ụgbọala ka ukwuu.
+transportation,This vehicle is comfortable.,Ụgbọala a dị mma maka njem.
+transportation,The vehicle is expensive.,Ụgbọala ahụ dị oke ọnụ.
+transportation,The vehicle is cheap.,Ụgbọala ahụ adịghị ọnụ.
+transportation,Public transportation is useful.,Ụgbọ njem ọha bara uru.
+transportation,The city has many vehicles.,Obodo ahụ nwere ọtụtụ ụgbọala.
+transportation,There are many people on the road.,Ọtụtụ mmadụ nọ n'okporo ụzọ.
+transportation,The driver knows the way.,Onye ọkwọ ụgbọala ahụ maara ụzọ.
+transportation,Please show me the way.,Biko gosi m ụzọ.
+transportation,Which way should we go?,Kedu ụzọ ka anyị ga-esi gaa?
+transportation,We took the wrong road.,Anyị soro ụzọ na-ezighi ezi.
+transportation,We found the right road.,Anyị chọtara ụzọ ziri ezi.
+transportation,The bridge is closed.,A mechiela àkwà mmiri ahụ.
+transportation,The bridge is open.,Àkwà mmiri ahụ mepere emepe.
+transportation,We crossed the bridge.,Anyị gafere àkwà mmiri ahụ.
+transportation,The river is wide.,Osimiri ahụ sara mbara.
+transportation,The boat is on the water.,Ụgbọ mmiri ahụ dị n'elu mmiri.
+transportation,We travelled by boat.,Anyị jiri ụgbọ mmiri mee njem.
+transportation,The boat is moving slowly.,Ụgbọ mmiri ahụ na-eji nwayọ aga.
+transportation,The boat arrived at the shore.,Ụgbọ mmiri ahụ rutere n'akụkụ osimiri.

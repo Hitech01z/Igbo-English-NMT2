@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).parent
 DATASET = (
     BASE_DIR
     / "output"
-    / "expanded_dataset.csv"
+    / "final_dataset.csv"
 )
 
 
@@ -113,37 +113,45 @@ suspicious = []
 
 for row in rows:
 
-    english = row["english"].lower()
-
-    igbo = row["igbo"].lower()
-
-    # Detect obvious accidental repeated words
+    english = row["english"].lower().strip()
+    igbo = row["igbo"].lower().strip()
 
     english_words = english.split()
-
     igbo_words = igbo.split()
 
+    has_repeated_word = False
 
-    for words in [
+    # --------------------------------------------------------
+    # CHECK ENGLISH
+    # --------------------------------------------------------
 
-        english_words,
+    for i in range(len(english_words) - 1):
 
-        igbo_words,
+        if english_words[i] == english_words[i + 1]:
 
-    ]:
+            has_repeated_word = True
+            break
 
-        for i in range(
+    # --------------------------------------------------------
+    # CHECK IGBO
+    # --------------------------------------------------------
 
-            len(words) - 1
+    if not has_repeated_word:
 
-        ):
+        for i in range(len(igbo_words) - 1):
 
-            if words[i] == words[i + 1]:
+            if igbo_words[i] == igbo_words[i + 1]:
 
-                suspicious.append(row)
-
+                has_repeated_word = True
                 break
 
+    # --------------------------------------------------------
+    # SAVE ONCE
+    # --------------------------------------------------------
+
+    if has_repeated_word:
+
+        suspicious.append(row)
 
 # ============================================================
 # REPORT

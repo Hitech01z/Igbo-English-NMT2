@@ -88,7 +88,7 @@ def translate(
 
 
     # --------------------------------------------------------
-    # DIRECTION TOKEN
+    # DETERMINE TRANSLATION DIRECTION
     # --------------------------------------------------------
 
     if (
@@ -123,23 +123,29 @@ def translate(
 
 
     # --------------------------------------------------------
-    # SOURCE ENCODING
+    # GET DIRECTION TOKEN ID
     # --------------------------------------------------------
 
-    source_text = (
+    direction_id = sp.piece_to_id(
 
         direction_token
-
-        + " "
-
-        + sentence
 
     )
 
 
+    # --------------------------------------------------------
+    # ENCODE SOURCE SENTENCE
+    #
+    # MUST MATCH TRAINING FORMAT:
+    #
+    # [BOS] [DIRECTION] sentence [EOS]
+    # --------------------------------------------------------
+
     src_ids = [
 
-        BOS_IDX
+        BOS_IDX,
+
+        direction_id,
 
     ]
 
@@ -148,7 +154,7 @@ def translate(
 
         sp.encode(
 
-            source_text,
+            sentence,
 
             out_type=int,
 
@@ -163,6 +169,10 @@ def translate(
 
     )
 
+
+    # --------------------------------------------------------
+    # PAD SOURCE
+    # --------------------------------------------------------
 
     src = torch.tensor(
 
@@ -211,12 +221,17 @@ def translate(
 
     with torch.no_grad():
 
+
         for _ in range(
 
             MAX_LENGTH - 1
 
         ):
 
+
+            # --------------------------------------------
+            # MODEL FORWARD PASS
+            # --------------------------------------------
 
             output = model(
 
@@ -226,6 +241,10 @@ def translate(
 
             )
 
+
+            # --------------------------------------------
+            # GET LAST TOKEN PREDICTION
+            # --------------------------------------------
 
             logits = output[
 
@@ -243,6 +262,10 @@ def translate(
             ).item()
 
 
+            # --------------------------------------------
+            # STOP CONDITIONS
+            # --------------------------------------------
+
             if next_token == EOS_IDX:
 
                 break
@@ -258,12 +281,20 @@ def translate(
                 break
 
 
+            # --------------------------------------------
+            # ADD GENERATED TOKEN
+            # --------------------------------------------
+
             generated.append(
 
                 next_token
 
             )
 
+
+            # --------------------------------------------
+            # APPEND TOKEN TO DECODER INPUT
+            # --------------------------------------------
 
             next_token_tensor = torch.tensor(
 
@@ -299,9 +330,9 @@ def translate(
             )
 
 
-    # --------------------------------------------------------
-    # DECODE
-    # --------------------------------------------------------
+    # ========================================================
+    # DECODE GENERATED TOKENS
+    # ========================================================
 
     result = sp.decode(
 
@@ -344,7 +375,7 @@ if __name__ == "__main__":
 
             "Input: "
 
-        )
+        ).strip()
 
 
         if text.lower() == "exit":
@@ -359,7 +390,12 @@ if __name__ == "__main__":
         ).strip().lower()
 
 
+        # ----------------------------------------------------
+        # ENGLISH → IGBO
+        # ----------------------------------------------------
+
         if direction == "en-ig":
+
 
             result = translate(
 
@@ -372,7 +408,12 @@ if __name__ == "__main__":
             )
 
 
+        # ----------------------------------------------------
+        # IGBO → ENGLISH
+        # ----------------------------------------------------
+
         elif direction == "ig-en":
+
 
             result = translate(
 
@@ -387,11 +428,16 @@ if __name__ == "__main__":
 
         else:
 
+
+            print()
+
             print(
 
                 "Invalid direction."
 
             )
+
+            print()
 
             continue
 
